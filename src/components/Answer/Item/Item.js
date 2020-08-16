@@ -1,17 +1,22 @@
 import React, {useState} from 'react';
 
-const Item = ({who, id, name}) => {
+const Item = ({who, id, name, onItemClick}) => {
     const [checked, setChecked] = useState(false);
 
-    const onCheckItem = (id) => {
+    const onCheckItem = (id, name) => {
         if (!checked) {
-            console.log(who, id);
+            if (who === id) {
+                console.log('correct!')
+            } else {
+                console.log('wrong!')
+            }
         }
         setChecked(true);
+        onItemClick(name);
     };
 
     return (
-        <li onClick={() => {onCheckItem(id)}}>
+        <li onClick={() => {onCheckItem(id, name)}}>
             {id} {name} {who}
         </li>
     );
