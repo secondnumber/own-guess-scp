@@ -1,8 +1,13 @@
 import React from 'react';
 
-const Button = (props) => {
+const Button = ({isDisabled, setNextLevel, level, chooseHidden}) => {
+
+    const goOverNextLevel = () => {
+        setNextLevel(level);
+        chooseHidden();
+    }
     return (
-        <button>
+        <button disabled={isDisabled} onClick={goOverNextLevel}>
         Button
         </button>
     );

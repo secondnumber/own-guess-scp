@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Header = (props) => {
+const Header = ({level, attemptScore, totalScore}) => {
     return (
         <div>
-        Header
+        Header level: {level} attempt: {attemptScore} total score: {totalScore}
         </div>
     );
 };

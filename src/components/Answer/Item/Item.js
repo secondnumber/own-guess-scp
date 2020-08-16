@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 
-const Item = ({who, id, name, onItemClick}) => {
+const Item = ({who, id, name, onItemClick, makeButtonActive}) => {
     const [checked, setChecked] = useState(false);
 
     const onCheckItem = (id, name) => {
         if (!checked) {
             if (who === id) {
                 console.log('correct!')
+                makeButtonActive();
             } else {
                 console.log('wrong!')
             }
