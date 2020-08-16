@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import {chooseHidden} from '../../../redux/scpReducer';
 
-const Question = (props) => {
+const Question = ({who, chooseHidden}) => {
+    const [hidden, setHidden] = useState(null);
+
+    useEffect(() => {
+        chooseHidden();
+        setHidden(who);
+    }, [hidden]);
+
+    console.log(who);
+    
     return (
         <div>
-        Question
+        Question: {who}
         </div>
     );
 };

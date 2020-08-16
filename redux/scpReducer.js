@@ -1,3 +1,5 @@
+const SET_WHO_HIDDEN = 'scp/SET_WHO_HIDDEN';
+
 const initialState = {
     scpList: [
         [
@@ -53,13 +55,32 @@ const initialState = {
     level: 0,
     who: null,
     endRound: false,
-    attempt: 0,
+    attemptScore: 0,
     totalScore: 0,
     endGame: false,
 };
 
 const scpReducer = (state = initialState, action) => {
-    return state;
+    switch (action.type) {
+    case SET_WHO_HIDDEN: {
+        return {
+            ...state,
+            who: action.value,
+        }
+    }
+    default:
+        return state;
+    }
+}
+
+const setWhoHidden = (value) => ({
+    type: SET_WHO_HIDDEN,
+    value
+});
+
+export const chooseHidden = () => (dispatch) => {
+    const random = Math.floor(Math.random() * 5) + 1;
+    dispatch(setWhoHidden(random))
 };
 
 export default scpReducer;
