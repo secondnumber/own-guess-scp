@@ -1,15 +1,15 @@
 import React, {useState, useEffect} from 'react';
 
-const Item = ({who, id, name, onItemClick, makeButtonActive}) => {
+const Item = ({level, who, id, name, onItemClick, makeButtonActive}) => {
     const [clicked, setClicked] = useState(null);
 
     useEffect(() => {
         setClicked(false);
-    }, [who]);
+    }, [level]);
 
     const myFunc = () => {
         if (who === id) {
-            alert('hey');
+            console.log('hey');
             makeButtonActive();
         } else {
             console.log('wrong')
@@ -31,18 +31,3 @@ const Item = ({who, id, name, onItemClick, makeButtonActive}) => {
 };
 
 export default Item;
-
-/*     const onCheckItem = (id, name) => {
-        if (!checked) {
-            if (who === id) {
-                console.log('correct!')
-                makeButtonActive();
-            } else {
-                console.log('wrong!')
-            }
-        } else if (checked) {
-            console.log('just checked!')
-        }
-        onItemClick(name);
-        setChecked(true);
-    }; */

@@ -4,7 +4,6 @@ import Description from '../Description/Description';
 import Button from '../Button/Button';
 
 const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
-    const [hidden, setHidden] = useState(null);
     const [shownName, setShownName] = useState(null);
     const [buttonDisabled, setButtonDisabled] = useState(null);
 
@@ -17,10 +16,6 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
     };
 
     useEffect(() => {
-        setHidden(who);
-    }, [hidden]);
-
-    useEffect(() => {
         setButtonDisabled(true);
     }, [level]);
 
@@ -29,6 +24,7 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
             key={el.id}
             id={el.id}
             name={el.name}
+            level={level}
             who={who}
             onItemClick={onItemClick}
             makeButtonActive={makeButtonActive}/>

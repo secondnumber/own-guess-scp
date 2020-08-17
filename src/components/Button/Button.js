@@ -4,7 +4,6 @@ const Button = ({isDisabled, setNextLevel, level, chooseHidden}) => {
 
     const goOverNextLevel = () => {
         setNextLevel(level);
-        chooseHidden();
     }
     return (
         <button disabled={isDisabled} onClick={goOverNextLevel}>
