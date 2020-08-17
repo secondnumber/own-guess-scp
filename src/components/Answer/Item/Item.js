@@ -1,6 +1,19 @@
 import React, {useState, useEffect} from 'react';
 
-const Item = ({level, who, id, name, onItemClick, makeButtonActive, attemptScore, totalScore, countAttemptScore, countTotalScore}) => {
+const Item = ({
+    level,
+    who,
+    id,
+    name,
+    onItemClick,
+    makeButtonActive,
+    attemptScore,
+    totalScore,
+    countAttemptScore,
+    countTotalScore,
+    endRound,
+    isRoundEnd
+}) => {
     const [clicked, setClicked] = useState(null);
 
     useEffect(() => {
@@ -13,9 +26,12 @@ const Item = ({level, who, id, name, onItemClick, makeButtonActive, attemptScore
             makeButtonActive();
             countTotalScore(attemptScore, totalScore);
             countAttemptScore(0);
+            isRoundEnd(true);
         } else {
-            countAttemptScore(attemptScore + 1);
-            console.log('wrong')
+            if (!endRound) {
+                countAttemptScore(attemptScore + 1);
+                console.log('wrong')
+            }
         }
     };
 
@@ -28,9 +44,9 @@ const Item = ({level, who, id, name, onItemClick, makeButtonActive, attemptScore
     };
 
     return (
-        <button onClick={() => {onClick(id)}}>
+        <li onClick={() => {onClick(id)}}>
             {id} {name} {who}
-        </button>
+        </li>
     );
 };
 

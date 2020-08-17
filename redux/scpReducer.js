@@ -2,6 +2,7 @@ const SET_WHO_HIDDEN = 'scp/SET_WHO_HIDDEN';
 const SET_LEVEL= 'scp/SET_LEVEL';
 const SET_ATTEMPT_SCORE= 'scp/SET_ATTEMPT_SCORE';
 const SET_TOTAL_SCORE= 'scp/SET_TOTAL_SCORE';
+const SET_ROUND_END= 'scp/SET_ROUND_END';
 
 const initialState = {
     scpList: [
@@ -89,6 +90,12 @@ const scpReducer = (state = initialState, action) => {
             totalScore: action.value,
         }
     }
+    case SET_ROUND_END: {
+        return {
+            ...state,
+            endRound: action.value,
+        }
+    }
     default:
         return state;
     }
@@ -114,6 +121,11 @@ const setTotalScore = (value) => ({
     value
 });
 
+const setRoundEnd = (value) => ({
+    type: SET_ROUND_END,
+    value
+});
+
 export const chooseHidden = () => (dispatch) => {
     const random = Math.floor(Math.random() * 5) + 1;
     dispatch(setWhoHidden(random));
@@ -131,6 +143,10 @@ export const countAttemptScore = (value) => (dispatch) => {
 export const countTotalScore = (attempt, total) => (dispatch) => {
     const value = total + 5 - attempt;
     dispatch(setTotalScore(value));
+};
+
+export const isRoundEnd = (value) => (dispatch) => {
+    dispatch(setRoundEnd(value));
 };
 
 export default scpReducer;

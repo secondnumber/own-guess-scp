@@ -1,7 +1,8 @@
 import React from 'react';
-import HeaderContainer from "./components/Header/HeaderContainer";
-import QuestionContainer from "./components/Question/QuestionContainer";
-import AnswerContainer from "./components/Answer/AnswerContainer";
+import HeaderContainer from './components/Header/HeaderContainer';
+import QuestionContainer from './components/Question/QuestionContainer';
+import AnswerContainer from './components/Answer/AnswerContainer';
+import ListAnt from './components/AntList';
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <HeaderContainer/>
             <QuestionContainer/>
             <AnswerContainer/>
+            <ListAnt/>
         </div>
     )
 };

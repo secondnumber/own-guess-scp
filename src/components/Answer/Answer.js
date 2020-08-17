@@ -3,7 +3,7 @@ import Item from './Item/Item';
 import Description from '../Description/Description';
 import Button from '../Button/Button';
 
-const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, totalScore, countAttemptScore, countTotalScore}) => {
+const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, totalScore, countAttemptScore, countTotalScore, isRoundEnd, endRound}) => {
     const [shownName, setShownName] = useState(null);
     const [buttonDisabled, setButtonDisabled] = useState(null);
 
@@ -31,7 +31,10 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, 
             countTotalScore={countTotalScore}
             who={who}
             onItemClick={onItemClick}
-            makeButtonActive={makeButtonActive}/>
+            makeButtonActive={makeButtonActive}
+            endRound={endRound}
+            isRoundEnd={isRoundEnd}
+        />
     ));
 
     return (
@@ -41,7 +44,13 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, 
                 {itemsList}
             </ul>
             <Description shownName={shownName}/>
-            <Button isDisabled={buttonDisabled} setNextLevel={setNextLevel} level={level} chooseHidden={chooseHidden}/>
+            <Button
+                isDisabled={buttonDisabled}
+                setNextLevel={setNextLevel}
+                level={level}
+                chooseHidden={chooseHidden}
+                isRoundEnd={isRoundEnd}
+            />
         </div>
     );
 };
