@@ -25,7 +25,13 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
     }, [level]);
 
     const itemsList = scpList[level].map((el) => (
-        <Item key={el.id} id={el.id} name={el.name} who={who} onItemClick={onItemClick} makeButtonActive={makeButtonActive}/>
+        <Item
+            key={el.id}
+            id={el.id}
+            name={el.name}
+            who={who}
+            onItemClick={onItemClick}
+            makeButtonActive={makeButtonActive}/>
     ));
 
     return (

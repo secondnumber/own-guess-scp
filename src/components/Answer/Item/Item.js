@@ -1,9 +1,38 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 const Item = ({who, id, name, onItemClick, makeButtonActive}) => {
-    const [checked, setChecked] = useState(false);
+    const [clicked, setClicked] = useState(null);
 
-    const onCheckItem = (id, name) => {
+    useEffect(() => {
+        setClicked(false);
+    }, [who]);
+
+    const myFunc = () => {
+        if (who === id) {
+            alert('hey');
+            makeButtonActive();
+        } else {
+            console.log('wrong')
+        }
+    };
+
+    const onClick = () => {
+        if (!clicked) {
+            setClicked(true);
+            myFunc();
+        }
+    };
+
+    return (
+        <button onClick={() => {onClick()}}>
+            {id} {name} {who}
+        </button>
+    );
+};
+
+export default Item;
+
+/*     const onCheckItem = (id, name) => {
         if (!checked) {
             if (who === id) {
                 console.log('correct!')
@@ -11,16 +40,9 @@ const Item = ({who, id, name, onItemClick, makeButtonActive}) => {
             } else {
                 console.log('wrong!')
             }
+        } else if (checked) {
+            console.log('just checked!')
         }
-        setChecked(true);
         onItemClick(name);
-    };
-
-    return (
-        <li onClick={() => {onCheckItem(id, name)}}>
-            {id} {name} {who}
-        </li>
-    );
-};
-
-export default Item;
+        setChecked(true);
+    }; */

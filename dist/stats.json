@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "e08fc4559c61ddae4ee6",
-  "time": 795,
-  "builtAt": 1597599062859,
+  "hash": "2ab9c69da516dc3c949c",
+  "time": 698,
+  "builtAt": 1597657859075,
   "publicPath": "",
   "outputPath": "/Users/yulyavorontsova/songbird/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "main.js",
-      "size": 1494557,
+      "size": 1495044,
       "chunks": [
         "main"
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "main.js.map",
-      "size": 1684423,
+      "size": 1685054,
       "chunks": [
         "main"
       ],
@@ -81,7 +81,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1424314,
+      "size": 1424766,
       "names": [
         "main"
       ],
@@ -89,7 +89,7 @@
         "main.js",
         "main.js.map"
       ],
-      "hash": "fff1516922ffbf821790",
+      "hash": "2842075c9d354d37914c",
       "siblings": [
       ],
       "parents": [
@@ -4423,7 +4423,7 @@
               "moduleName": "./src/components/Answer/Item/Item.js",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "13:0-40"
+              "loc": "13:0-51"
             },
             {
               "moduleId": "./src/components/Answer/Item/Item.js",
@@ -4441,7 +4441,16 @@
               "moduleName": "./src/components/Answer/Item/Item.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "41:22-27"
+              "loc": "27:2-11"
+            },
+            {
+              "moduleId": "./src/components/Answer/Item/Item.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/Item/Item.js",
+              "module": "./src/components/Answer/Item/Item.js",
+              "moduleName": "./src/components/Answer/Item/Item.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "47:22-27"
             },
             {
               "moduleId": "./src/components/Button/Button.js",
@@ -6544,7 +6553,7 @@
           "index2": 84,
           "size": 3323,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6669,9 +6678,9 @@
           "name": "./src/components/Answer/Item/Item.js",
           "index": 86,
           "index2": 81,
-          "size": 2342,
+          "size": 2794,
           "cacheable": true,
-          "built": false,
+          "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -11519,7 +11528,7 @@
           "moduleName": "./src/components/Answer/Item/Item.js",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "13:0-40"
+          "loc": "13:0-51"
         },
         {
           "moduleId": "./src/components/Answer/Item/Item.js",
@@ -11537,7 +11546,16 @@
           "moduleName": "./src/components/Answer/Item/Item.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "41:22-27"
+          "loc": "27:2-11"
+        },
+        {
+          "moduleId": "./src/components/Answer/Item/Item.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/Item/Item.js",
+          "module": "./src/components/Answer/Item/Item.js",
+          "moduleName": "./src/components/Answer/Item/Item.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "47:22-27"
         },
         {
           "moduleId": "./src/components/Button/Button.js",
@@ -13640,7 +13658,7 @@
       "index2": 84,
       "size": 3323,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13765,9 +13783,9 @@
       "name": "./src/components/Answer/Item/Item.js",
       "index": 86,
       "index2": 81,
-      "size": 2342,
+      "size": 2794,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
