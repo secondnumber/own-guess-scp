@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "5d9362a09cc9603bed17",
-  "time": 522,
-  "builtAt": 1597671285178,
+  "hash": "c9f2717718bc89536043",
+  "time": 700,
+  "builtAt": 1597674335431,
   "publicPath": "",
   "outputPath": "/Users/yulyavorontsova/songbird/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "main.js",
-      "size": 1494418,
+      "size": 1496572,
       "chunks": [
         "main"
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "main.js.map",
-      "size": 1684459,
+      "size": 1687494,
       "chunks": [
         "main"
       ],
@@ -81,7 +81,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1424232,
+      "size": 1426028,
       "names": [
         "main"
       ],
@@ -89,7 +89,7 @@
         "main.js",
         "main.js.map"
       ],
-      "hash": "961d654de94e7c9f05ad",
+      "hash": "bd585da57de4adf5a9a6",
       "siblings": [
       ],
       "parents": [
@@ -3002,7 +3002,7 @@
               "moduleName": "./src/components/Answer/AnswerContainer.js",
               "type": "harmony import specifier",
               "userRequest": "react-redux",
-              "loc": "14:22-29"
+              "loc": "16:22-29"
             },
             {
               "moduleId": "./src/components/Header/HeaderContainer.js",
@@ -4324,7 +4324,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "25:18-26"
+              "loc": "29:18-26"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4333,7 +4333,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "30:19-27"
+              "loc": "34:19-27"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4342,7 +4342,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "43:2-11"
+              "loc": "47:2-11"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4351,7 +4351,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "47:24-29"
+              "loc": "51:24-29"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4360,7 +4360,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "57:22-27"
+              "loc": "65:22-27"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4369,7 +4369,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "57:84-89"
+              "loc": "65:84-89"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4378,7 +4378,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "57:141-146"
+              "loc": "65:141-146"
             },
             {
               "moduleId": "./src/components/Answer/Answer.js",
@@ -4387,7 +4387,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "59:19-24"
+              "loc": "67:19-24"
             },
             {
               "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -4414,7 +4414,7 @@
               "moduleName": "./src/components/Answer/Item/Item.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "23:18-26"
+              "loc": "27:18-26"
             },
             {
               "moduleId": "./src/components/Answer/Item/Item.js",
@@ -4423,7 +4423,7 @@
               "moduleName": "./src/components/Answer/Item/Item.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "28:2-11"
+              "loc": "32:2-11"
             },
             {
               "moduleId": "./src/components/Answer/Item/Item.js",
@@ -4432,7 +4432,7 @@
               "moduleName": "./src/components/Answer/Item/Item.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "48:22-27"
+              "loc": "57:22-27"
             },
             {
               "moduleId": "./src/components/Button/Button.js",
@@ -6304,9 +6304,9 @@
           "name": "./redux/scpReducer.js",
           "index": 83,
           "index2": 78,
-          "size": 3825,
+          "size": 4791,
           "cacheable": true,
-          "built": false,
+          "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6358,7 +6358,7 @@
               "moduleName": "./src/components/Answer/AnswerContainer.js",
               "type": "harmony side effect evaluation",
               "userRequest": "../../../redux/scpReducer",
-              "loc": "4:0-71"
+              "loc": "4:0-107"
             },
             {
               "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -6367,7 +6367,7 @@
               "moduleName": "./src/components/Answer/AnswerContainer.js",
               "type": "harmony import specifier",
               "userRequest": "../../../redux/scpReducer",
-              "loc": "15:16-28"
+              "loc": "17:16-28"
             },
             {
               "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -6376,7 +6376,25 @@
               "moduleName": "./src/components/Answer/AnswerContainer.js",
               "type": "harmony import specifier",
               "userRequest": "../../../redux/scpReducer",
-              "loc": "16:16-28"
+              "loc": "18:16-28"
+            },
+            {
+              "moduleId": "./src/components/Answer/AnswerContainer.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/AnswerContainer.js",
+              "module": "./src/components/Answer/AnswerContainer.js",
+              "moduleName": "./src/components/Answer/AnswerContainer.js",
+              "type": "harmony import specifier",
+              "userRequest": "../../../redux/scpReducer",
+              "loc": "19:21-38"
+            },
+            {
+              "moduleId": "./src/components/Answer/AnswerContainer.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/AnswerContainer.js",
+              "module": "./src/components/Answer/AnswerContainer.js",
+              "moduleName": "./src/components/Answer/AnswerContainer.js",
+              "type": "harmony import specifier",
+              "userRequest": "../../../redux/scpReducer",
+              "loc": "20:19-34"
             },
             {
               "moduleId": "./src/components/Question/Question.js",
@@ -6409,6 +6427,8 @@
           "providedExports": [
             "chooseHidden",
             "setNextLevel",
+            "countAttemptScore",
+            "countTotalScore",
             "default"
           ],
           "optimizationBailout": [
@@ -6533,7 +6553,7 @@
           "name": "./src/components/Answer/Answer.js",
           "index": 85,
           "index2": 84,
-          "size": 3132,
+          "size": 3452,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -6583,7 +6603,7 @@
               "moduleName": "./src/components/Answer/AnswerContainer.js",
               "type": "harmony import specifier",
               "userRequest": "./Answer",
-              "loc": "17:3-9"
+              "loc": "21:3-9"
             }
           ],
           "providedExports": [
@@ -6599,7 +6619,7 @@
           "name": "./src/components/Answer/AnswerContainer.js",
           "index": 84,
           "index2": 85,
-          "size": 480,
+          "size": 672,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -6660,9 +6680,9 @@
           "name": "./src/components/Answer/Item/Item.js",
           "index": 86,
           "index2": 81,
-          "size": 2438,
+          "size": 2756,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6715,7 +6735,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "./Item/Item",
-              "loc": "47:44-48"
+              "loc": "51:44-48"
             }
           ],
           "providedExports": [
@@ -6786,7 +6806,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "../Button/Button",
-              "loc": "59:39-45"
+              "loc": "67:39-45"
             }
           ],
           "providedExports": [
@@ -6857,7 +6877,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "../Description/Description",
-              "loc": "57:161-172"
+              "loc": "65:161-172"
             }
           ],
           "providedExports": [
@@ -10089,7 +10109,7 @@
           "moduleName": "./src/components/Answer/AnswerContainer.js",
           "type": "harmony import specifier",
           "userRequest": "react-redux",
-          "loc": "14:22-29"
+          "loc": "16:22-29"
         },
         {
           "moduleId": "./src/components/Header/HeaderContainer.js",
@@ -11411,7 +11431,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "25:18-26"
+          "loc": "29:18-26"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11420,7 +11440,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "30:19-27"
+          "loc": "34:19-27"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11429,7 +11449,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "43:2-11"
+          "loc": "47:2-11"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11438,7 +11458,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "47:24-29"
+          "loc": "51:24-29"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11447,7 +11467,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "57:22-27"
+          "loc": "65:22-27"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11456,7 +11476,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "57:84-89"
+          "loc": "65:84-89"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11465,7 +11485,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "57:141-146"
+          "loc": "65:141-146"
         },
         {
           "moduleId": "./src/components/Answer/Answer.js",
@@ -11474,7 +11494,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "59:19-24"
+          "loc": "67:19-24"
         },
         {
           "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -11501,7 +11521,7 @@
           "moduleName": "./src/components/Answer/Item/Item.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "23:18-26"
+          "loc": "27:18-26"
         },
         {
           "moduleId": "./src/components/Answer/Item/Item.js",
@@ -11510,7 +11530,7 @@
           "moduleName": "./src/components/Answer/Item/Item.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "28:2-11"
+          "loc": "32:2-11"
         },
         {
           "moduleId": "./src/components/Answer/Item/Item.js",
@@ -11519,7 +11539,7 @@
           "moduleName": "./src/components/Answer/Item/Item.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "48:22-27"
+          "loc": "57:22-27"
         },
         {
           "moduleId": "./src/components/Button/Button.js",
@@ -13391,9 +13411,9 @@
       "name": "./redux/scpReducer.js",
       "index": 83,
       "index2": 78,
-      "size": 3825,
+      "size": 4791,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13445,7 +13465,7 @@
           "moduleName": "./src/components/Answer/AnswerContainer.js",
           "type": "harmony side effect evaluation",
           "userRequest": "../../../redux/scpReducer",
-          "loc": "4:0-71"
+          "loc": "4:0-107"
         },
         {
           "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -13454,7 +13474,7 @@
           "moduleName": "./src/components/Answer/AnswerContainer.js",
           "type": "harmony import specifier",
           "userRequest": "../../../redux/scpReducer",
-          "loc": "15:16-28"
+          "loc": "17:16-28"
         },
         {
           "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -13463,7 +13483,25 @@
           "moduleName": "./src/components/Answer/AnswerContainer.js",
           "type": "harmony import specifier",
           "userRequest": "../../../redux/scpReducer",
-          "loc": "16:16-28"
+          "loc": "18:16-28"
+        },
+        {
+          "moduleId": "./src/components/Answer/AnswerContainer.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/AnswerContainer.js",
+          "module": "./src/components/Answer/AnswerContainer.js",
+          "moduleName": "./src/components/Answer/AnswerContainer.js",
+          "type": "harmony import specifier",
+          "userRequest": "../../../redux/scpReducer",
+          "loc": "19:21-38"
+        },
+        {
+          "moduleId": "./src/components/Answer/AnswerContainer.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Answer/AnswerContainer.js",
+          "module": "./src/components/Answer/AnswerContainer.js",
+          "moduleName": "./src/components/Answer/AnswerContainer.js",
+          "type": "harmony import specifier",
+          "userRequest": "../../../redux/scpReducer",
+          "loc": "20:19-34"
         },
         {
           "moduleId": "./src/components/Question/Question.js",
@@ -13496,6 +13534,8 @@
       "providedExports": [
         "chooseHidden",
         "setNextLevel",
+        "countAttemptScore",
+        "countTotalScore",
         "default"
       ],
       "optimizationBailout": [
@@ -13620,7 +13660,7 @@
       "name": "./src/components/Answer/Answer.js",
       "index": 85,
       "index2": 84,
-      "size": 3132,
+      "size": 3452,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -13670,7 +13710,7 @@
           "moduleName": "./src/components/Answer/AnswerContainer.js",
           "type": "harmony import specifier",
           "userRequest": "./Answer",
-          "loc": "17:3-9"
+          "loc": "21:3-9"
         }
       ],
       "providedExports": [
@@ -13686,7 +13726,7 @@
       "name": "./src/components/Answer/AnswerContainer.js",
       "index": 84,
       "index2": 85,
-      "size": 480,
+      "size": 672,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -13747,9 +13787,9 @@
       "name": "./src/components/Answer/Item/Item.js",
       "index": 86,
       "index2": 81,
-      "size": 2438,
+      "size": 2756,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13802,7 +13842,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "./Item/Item",
-          "loc": "47:44-48"
+          "loc": "51:44-48"
         }
       ],
       "providedExports": [
@@ -13873,7 +13913,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "../Button/Button",
-          "loc": "59:39-45"
+          "loc": "67:39-45"
         }
       ],
       "providedExports": [
@@ -13944,7 +13984,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "../Description/Description",
-          "loc": "57:161-172"
+          "loc": "65:161-172"
         }
       ],
       "providedExports": [

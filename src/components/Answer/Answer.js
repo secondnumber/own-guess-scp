@@ -3,7 +3,7 @@ import Item from './Item/Item';
 import Description from '../Description/Description';
 import Button from '../Button/Button';
 
-const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
+const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, totalScore, countAttemptScore, countTotalScore}) => {
     const [shownName, setShownName] = useState(null);
     const [buttonDisabled, setButtonDisabled] = useState(null);
 
@@ -25,6 +25,10 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden}) => {
             id={el.id}
             name={el.name}
             level={level}
+            attemptScore={attemptScore}
+            totalScore={totalScore}
+            countAttemptScore={countAttemptScore}
+            countTotalScore={countTotalScore}
             who={who}
             onItemClick={onItemClick}
             makeButtonActive={makeButtonActive}/>
