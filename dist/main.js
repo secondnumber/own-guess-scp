@@ -86,16 +86,48 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/siren-head_0.mp3":
-/*!*********************************!*\
-  !*** ./assets/siren-head_0.mp3 ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "sounds/siren-head_0-b912d610.mp3");
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/defineProperty.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/defineProperty.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+module.exports = _defineProperty;
 
 /***/ }),
 
@@ -152,6 +184,1043 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   }
 
   return target;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/extends.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/extends.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _extends() {
+  module.exports = _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inheritsLoose.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inheritsLoose.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+module.exports = _inheritsLoose;
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/fast-forward.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/fast-forward.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M13 6v12l8.5-6M4 18l8.5-6L4 6v12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/pause-circle.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/pause-circle.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M15 16h-2V8h2m-4 8H9V8h2m1-6A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/play-circle.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/play-circle.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M10 16.5v-9l6 4.5M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/repeat-off.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/repeat-off.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M2 5.27L3.28 4L20 20.72L18.73 22l-3-3H7v3l-4-4l4-4v3h6.73L7 10.27V11H5V8.27l-3-3M17 13h2v4.18l-2-2V13m0-8V2l4 4l-4 4V7H8.82l-2-2H17z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/repeat.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/repeat.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M17 17H7v-3l-4 4l4 4v-3h12v-6h-2M7 7h10v3l4-4l-4-4v3H5v6h2V7z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/rewind.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/rewind.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M11.5 12l8.5 6V6m-9 12V6l-8.5 6l8.5 6z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/skip-next.js":
+/*!******************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/skip-next.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M16 18h2V6h-2M6 18l8.5-6L6 6v12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/skip-previous.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/skip-previous.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M6 18V6h2v12H6m3.5-6L18 6v12l-8.5-6z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/volume-high.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/volume-high.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77c0-4.28-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9H3z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/icons-mdi/volume-mute.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@iconify/icons-mdi/volume-mute.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var data = {
+	"body": "<path d=\"M3 9h4l5-5v16l-5-5H3V9m13.59 3L14 9.41L15.41 8L18 10.59L20.59 8L22 9.41L19.41 12L22 14.59L20.59 16L18 13.41L15.41 16L14 14.59L16.59 12z\" fill=\"currentColor\"/>",
+	"width": 24,
+	"height": 24
+};
+exports.__esModule = true;
+exports.default = data;
+
+
+/***/ }),
+
+/***/ "./node_modules/@iconify/react/dist/icon.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@iconify/react/dist/icon.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = exports.InlineIcon = exports.Icon = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+/**
+ * Unique id counter
+ *
+ * @type {number}
+ */
+var idCounter = 0;
+/**
+ * Regex used to split dimensions
+ *
+ * @type {RegExp}
+ * @private
+ */
+
+var unitsSplit = /(-?[0-9.]*[0-9]+[0-9.]*)/g;
+var unitsTest = /^-?[0-9.]*[0-9]+[0-9.]*$/g;
+/**
+ * Attributes used for icon
+ *
+ * @type {string[]}
+ */
+
+var iconAttributes = ['width', 'height', 'inline', 'hFlip', 'vFlip', 'flip', 'rotate', 'align', 'color', 'box'];
+/**
+ * Default attribute values
+ *
+ * @type {object}
+ */
+
+var defaultAttributes = {
+  left: 0,
+  top: 0,
+  width: 16,
+  height: 16,
+  rotate: 0,
+  hFlip: false,
+  vFlip: false
+};
+/**
+ * Add missing properties to icon
+ *
+ * Important: in PHP version of this library this function is part of Collection class: Collection::addMissingAttributes()
+ *
+ * JavaScript version uses separate file so this function could be used in React and other components without loading
+ * entire Collection class.
+ *
+ * @param {object} data
+ * @return {object}
+ */
+
+function normalize(data) {
+  // Object.create, compatible with IE11
+  var item = Object.create(null);
+  var key;
+
+  for (key in defaultAttributes) {
+    item[key] = defaultAttributes[key];
+  }
+
+  for (key in data) {
+    item[key] = data[key];
+  } // Attributes derived from other attributes
+
+
+  if (item.inlineTop === void 0) {
+    item.inlineTop = item.top;
+  }
+
+  if (item.inlineHeight === void 0) {
+    item.inlineHeight = item.height;
+  }
+
+  if (item.verticalAlign === void 0) {
+    // -0.143 if icon is designed for 14px height,
+    // otherwise assume icon is designed for 16px height
+    item.verticalAlign = item.height % 7 === 0 && item.height % 8 !== 0 ? -0.143 : -0.125;
+  }
+
+  return item;
+}
+/**
+ * Get preserveAspectRatio attribute value
+ *
+ * @param {object} align
+ * @return {string}
+ * @private
+ */
+
+
+function getAlignment(align) {
+  var result;
+
+  switch (align.horizontal) {
+    case 'left':
+      result = 'xMin';
+      break;
+
+    case 'right':
+      result = 'xMax';
+      break;
+
+    default:
+      result = 'xMid';
+  }
+
+  switch (align.vertical) {
+    case 'top':
+      result += 'YMin';
+      break;
+
+    case 'bottom':
+      result += 'YMax';
+      break;
+
+    default:
+      result += 'YMid';
+  }
+
+  result += align.slice ? ' slice' : ' meet';
+  return result;
+}
+/**
+ * SVG class
+ *
+ * @see @iconify/json-tools/src/svg.js
+ */
+
+
+var SVG = /*#__PURE__*/function () {
+  /**
+   * Constructor
+   *
+   * @param icon Icon data
+   *  Use Collection.getIconData() to retrieve icon data
+   */
+  function SVG(icon) {
+    _classCallCheck(this, SVG);
+
+    this._item = icon;
+  }
+  /**
+   * Get SVG attributes
+   *
+   * @param {object} props Custom properties (same as query string in Iconify API)
+   * @returns {string}
+   */
+
+
+  _createClass(SVG, [{
+    key: "getAttributes",
+    value: function getAttributes(props) {
+      var item = this._item;
+
+      if (_typeof(props) !== 'object') {
+        props = Object.create(null);
+      } // Set data
+
+
+      var align = {
+        horizontal: 'center',
+        vertical: 'middle',
+        slice: false
+      };
+      var transform = {
+        rotate: item.rotate,
+        hFlip: item.hFlip,
+        vFlip: item.vFlip
+      };
+      var style = Object.create(null);
+      var attributes = Object.create(null); // Get width/height
+
+      var inline = props.inline === true || props.inline === 'true' || props.inline === '1';
+      var box = {
+        left: item.left,
+        top: inline ? item.inlineTop : item.top,
+        width: item.width,
+        height: inline ? item.inlineHeight : item.height
+      }; // Transformations
+
+      ['hFlip', 'vFlip'].forEach(function (key) {
+        if (props[key] !== void 0 && (props[key] === true || props[key] === 'true' || props[key] === '1')) {
+          transform[key] = !transform[key];
+        }
+      });
+
+      if (props.flip !== void 0) {
+        props.flip.toLowerCase().split(/[\s,]+/).forEach(function (value) {
+          switch (value) {
+            case 'horizontal':
+              transform.hFlip = !transform.hFlip;
+              break;
+
+            case 'vertical':
+              transform.vFlip = !transform.vFlip;
+          }
+        });
+      }
+
+      if (props.rotate !== void 0) {
+        var value = props.rotate;
+
+        if (typeof value === 'number') {
+          transform.rotate += value;
+        } else if (typeof value === 'string') {
+          var units = value.replace(/^-?[0-9.]*/, '');
+
+          if (units === '') {
+            value = parseInt(value);
+
+            if (!isNaN(value)) {
+              transform.rotate += value;
+            }
+          } else if (units !== value) {
+            var split = false;
+
+            switch (units) {
+              case '%':
+                // 25% -> 1, 50% -> 2, ...
+                split = 25;
+                break;
+
+              case 'deg':
+                // 90deg -> 1, 180deg -> 2, ...
+                split = 90;
+            }
+
+            if (split) {
+              value = parseInt(value.slice(0, value.length - units.length));
+
+              if (!isNaN(value)) {
+                transform.rotate += Math.round(value / split);
+              }
+            }
+          }
+        }
+      } // Apply transformations to box
+
+
+      var transformations = [],
+          tempValue;
+
+      if (transform.hFlip) {
+        if (transform.vFlip) {
+          transform.rotate += 2;
+        } else {
+          // Horizontal flip
+          transformations.push('translate(' + (box.width + box.left) + ' ' + (0 - box.top) + ')');
+          transformations.push('scale(-1 1)');
+          box.top = box.left = 0;
+        }
+      } else if (transform.vFlip) {
+        // Vertical flip
+        transformations.push('translate(' + (0 - box.left) + ' ' + (box.height + box.top) + ')');
+        transformations.push('scale(1 -1)');
+        box.top = box.left = 0;
+      }
+
+      switch (transform.rotate % 4) {
+        case 1:
+          // 90deg
+          tempValue = box.height / 2 + box.top;
+          transformations.unshift('rotate(90 ' + tempValue + ' ' + tempValue + ')'); // swap width/height and x/y
+
+          if (box.left !== 0 || box.top !== 0) {
+            tempValue = box.left;
+            box.left = box.top;
+            box.top = tempValue;
+          }
+
+          if (box.width !== box.height) {
+            tempValue = box.width;
+            box.width = box.height;
+            box.height = tempValue;
+          }
+
+          break;
+
+        case 2:
+          // 180deg
+          transformations.unshift('rotate(180 ' + (box.width / 2 + box.left) + ' ' + (box.height / 2 + box.top) + ')');
+          break;
+
+        case 3:
+          // 270deg
+          tempValue = box.width / 2 + box.left;
+          transformations.unshift('rotate(-90 ' + tempValue + ' ' + tempValue + ')'); // swap width/height and x/y
+
+          if (box.left !== 0 || box.top !== 0) {
+            tempValue = box.left;
+            box.left = box.top;
+            box.top = tempValue;
+          }
+
+          if (box.width !== box.height) {
+            tempValue = box.width;
+            box.width = box.height;
+            box.height = tempValue;
+          }
+
+          break;
+      } // Calculate dimensions
+      // Values for width/height: null = default, 'auto' = from svg, false = do not set
+      // Default: if both values aren't set, height defaults to '1em', width is calculated from height
+
+
+      var customWidth = props.width ? props.width : null;
+      var customHeight = props.height ? props.height : null;
+      var width, height;
+
+      if (customWidth === null && customHeight === null) {
+        customHeight = '1em';
+      }
+
+      if (customWidth !== null && customHeight !== null) {
+        width = customWidth;
+        height = customHeight;
+      } else if (customWidth !== null) {
+        width = customWidth;
+        height = SVG.calculateDimension(width, box.height / box.width);
+      } else {
+        height = customHeight;
+        width = SVG.calculateDimension(height, box.width / box.height);
+      }
+
+      if (width !== false) {
+        attributes.width = width === 'auto' ? box.width : width;
+      }
+
+      if (height !== false) {
+        attributes.height = height === 'auto' ? box.height : height;
+      } // Add vertical-align for inline icon
+
+
+      if (inline && item.verticalAlign !== 0) {
+        style['vertical-align'] = item.verticalAlign + 'em';
+      } // Check custom alignment
+
+
+      if (props.align !== void 0) {
+        props.align.toLowerCase().split(/[\s,]+/).forEach(function (value) {
+          switch (value) {
+            case 'left':
+            case 'right':
+            case 'center':
+              align.horizontal = value;
+              break;
+
+            case 'top':
+            case 'bottom':
+            case 'middle':
+              align.vertical = value;
+              break;
+
+            case 'crop':
+              align.slice = true;
+              break;
+
+            case 'meet':
+              align.slice = false;
+          }
+        });
+      } // Generate viewBox and preserveAspectRatio attributes
+
+
+      attributes.preserveAspectRatio = getAlignment(align);
+      attributes.viewBox = box.left + ' ' + box.top + ' ' + box.width + ' ' + box.height; // Generate body
+
+      var body = SVG.replaceIDs(item.body);
+
+      if (props.color !== void 0) {
+        body = body.replace(/currentColor/g, props.color);
+      }
+
+      if (transformations.length) {
+        body = '<g transform="' + transformations.join(' ') + '">' + body + '</g>';
+      }
+
+      if (props.box === true || props.box === 'true' || props.box === '1') {
+        // Add transparent bounding box
+        body += '<rect x="' + box.left + '" y="' + box.top + '" width="' + box.width + '" height="' + box.height + '" fill="rgba(0, 0, 0, 0)" />';
+      }
+
+      return {
+        attributes: attributes,
+        body: body,
+        style: style
+      };
+    }
+    /**
+     * Generate SVG
+     *
+     * @param {object} props Custom properties (same as query string in Iconify API)
+     * @param {boolean} [addExtra] True if extra attributes should be added to SVG.
+     *  Due to lack of functions in JavaScript for escaping attributes, it is your job to make sure key and value are both properly escaped. Default value is false.
+     * @returns {string}
+     */
+
+  }, {
+    key: "getSVG",
+    value: function getSVG(props, addExtra) {
+      var attributes = SVG.splitAttributes(props),
+          data = this.getAttributes(attributes.icon);
+      var svg = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"'; // Add extra attributes - assume that their names and values are escaped
+
+      if (addExtra) {
+        Object.keys(attributes.node).forEach(function (attr) {
+          svg += ' ' + attr + '="' + attributes.node[attr] + '"';
+        });
+      } // Add SVG attributes
+
+
+      Object.keys(data.attributes).forEach(function (attr) {
+        svg += ' ' + attr + '="' + data.attributes[attr] + '"';
+      }); // Add style with 360deg transformation to style to prevent subpixel rendering bug
+
+      svg += ' style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);';
+      Object.keys(data.style).forEach(function (attr) {
+        svg += ' ' + attr + ': ' + data.style[attr] + ';';
+      });
+
+      if (props && props.style !== void 0) {
+        svg += props.style;
+      }
+
+      svg += '">';
+      svg += data.body + '</svg>';
+      return svg;
+    }
+    /**
+     * Split attributes
+     *
+     * @param props
+     * @return {{icon: {}, node: {}}}
+     */
+
+  }], [{
+    key: "splitAttributes",
+    value: function splitAttributes(props) {
+      var result = {
+        icon: Object.create(null),
+        node: Object.create(null)
+      };
+      Object.keys(props).forEach(function (name) {
+        result[iconAttributes.indexOf(name) === -1 ? 'node' : 'icon'][name] = props[name];
+      });
+      return result;
+    }
+    /**
+     * Calculate second dimension when only 1 dimension is set
+     *
+     * @param {string|number} size One dimension (such as width)
+     * @param {number} ratio Width/height ratio.
+     *      If size == width, ratio = height/width
+     *      If size == height, ratio = width/height
+     * @param {number} [precision] Floating number precision in result to minimize output. Default = 100
+     * @return {string|number|null} Another dimension, null on error
+     */
+
+  }, {
+    key: "calculateDimension",
+    value: function calculateDimension(size, ratio, precision) {
+      if (ratio === 1) {
+        return size;
+      }
+
+      precision = precision === void 0 ? 100 : precision;
+
+      if (typeof size === 'number') {
+        return Math.ceil(size * ratio * precision) / precision;
+      } // split code into sets of strings and numbers
+
+
+      var split = size.split(unitsSplit);
+
+      if (split === null || !split.length) {
+        return null;
+      }
+
+      var results = [],
+          code = split.shift(),
+          isNumber = unitsTest.test(code),
+          num;
+
+      while (true) {
+        if (isNumber) {
+          num = parseFloat(code);
+
+          if (isNaN(num)) {
+            results.push(code);
+          } else {
+            results.push(Math.ceil(num * ratio * precision) / precision);
+          }
+        } else {
+          results.push(code);
+        } // next
+
+
+        code = split.shift();
+
+        if (code === void 0) {
+          return results.join('');
+        }
+
+        isNumber = !isNumber;
+      }
+    }
+    /**
+     * Replace IDs in SVG output with unique IDs
+     * Fast replacement without parsing XML, assuming commonly used patterns.
+     *
+     * @param {string} body
+     * @return {string}
+     */
+
+  }, {
+    key: "replaceIDs",
+    value: function replaceIDs(body) {
+      var regex = /\sid="(\S+)"/g,
+          ids = [],
+          match,
+          prefix;
+
+      function strReplace(search, replace, subject) {
+        var pos = 0;
+
+        while ((pos = subject.indexOf(search, pos)) !== -1) {
+          subject = subject.slice(0, pos) + replace + subject.slice(pos + search.length);
+          pos += replace.length;
+        }
+
+        return subject;
+      } // Find all IDs
+
+
+      while (match = regex.exec(body)) {
+        ids.push(match[1]);
+      }
+
+      if (!ids.length) {
+        return body;
+      }
+
+      prefix = 'IconifyId-' + Date.now().toString(16) + '-' + (Math.random() * 0x1000000 | 0).toString(16) + '-'; // Replace with unique ids
+
+      ids.forEach(function (id) {
+        var newID = prefix + idCounter;
+        idCounter++;
+        body = strReplace('="' + id + '"', '="' + newID + '"', body);
+        body = strReplace('="#' + id + '"', '="#' + newID + '"', body);
+        body = strReplace('(#' + id + ')', '(#' + newID + ')', body);
+      });
+      return body;
+    }
+  }]);
+
+  return SVG;
+}();
+/**
+ * Create React component with SVG data
+ *
+ * @param {object} props
+ * @param {boolean} inline
+ * @return {null|React.Component}
+ */
+
+
+function component(props, inline) {
+  if (_typeof(props.icon) !== 'object') {
+    return null;
+  } // Split properties into SVG properties and icon properties
+
+
+  var split = SVG.splitAttributes(props),
+      iconProps = split.icon,
+      customAttributes = split.node;
+  delete customAttributes.icon; // Set default inline value
+
+  if (iconProps.inline === void 0) {
+    iconProps.inline = inline;
+  } // Get SVG data
+
+
+  var svg = new SVG(normalize(props.icon));
+  var iconData = svg.getAttributes(iconProps); // Set style
+
+  var style = {
+    transform: 'rotate(360deg)'
+  };
+
+  if (iconData.style['vertical-align'] !== void 0) {
+    style.verticalAlign = iconData.style['vertical-align'];
+  }
+
+  if (props.style !== void 0) {
+    for (var _key in props.style) {
+      style[_key] = props.style[_key];
+    }
+  } // Generate element attributes
+
+
+  var attributes = {
+    xmlns: 'http://www.w3.org/2000/svg',
+    focusable: false,
+    style: style
+  };
+  var key;
+
+  for (key in customAttributes) {
+    attributes[key] = customAttributes[key];
+  }
+
+  for (key in iconData.attributes) {
+    attributes[key] = iconData.attributes[key];
+  }
+
+  attributes.dangerouslySetInnerHTML = {
+    __html: iconData.body
+  }; // Generate SVG
+
+  return _react["default"].createElement('svg', attributes, null);
+}
+/**
+ * Icon without vertical alignment
+ *
+ * @param {object} props
+ * @return {React.Component}
+ * @constructor
+ */
+
+
+var Icon = function Icon(props) {
+  return component(props, false);
+};
+/**
+ * Icon with vertical alignment
+ *
+ * @param {object} props
+ * @return {React.Component}
+ * @constructor
+ */
+
+
+exports.Icon = Icon;
+
+var InlineIcon = function InlineIcon(props) {
+  return component(props, true);
+};
+/**
+ * Default export
+ */
+
+
+exports.InlineIcon = InlineIcon;
+var _default = Icon;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./node_modules/react-h5-audio-player/lib/styles.less":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--6-2!./node_modules/react-h5-audio-player/lib/styles.less ***!
+  \***************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".rhap_container {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  line-height: 1;\n  font-family: inherit;\n  width: 100%;\n  padding: 10px 15px;\n  background-color: #fff;\n  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);\n}\n.rhap_container:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_container svg {\n  vertical-align: initial;\n}\n.rhap_header {\n  margin-bottom: 10px;\n}\n.rhap_footer {\n  margin-top: 5px;\n}\n.rhap_main {\n  display: flex;\n  flex-direction: column;\n  flex: 1 1 auto;\n}\n.rhap_stacked .rhap_controls-section {\n  margin-top: 8px;\n}\n.rhap_horizontal {\n  flex-direction: row;\n}\n.rhap_horizontal .rhap_controls-section {\n  margin-left: 8px;\n}\n.rhap_horizontal-reverse {\n  flex-direction: row-reverse;\n}\n.rhap_horizontal-reverse .rhap_controls-section {\n  margin-right: 8px;\n}\n.rhap_stacked-reverse {\n  flex-direction: column-reverse;\n}\n.rhap_stacked-reverse .rhap_controls-section {\n  margin-bottom: 8px;\n}\n.rhap_progress-section {\n  display: flex;\n  flex: 3 1 auto;\n  align-items: center;\n}\n.rhap_progress-container {\n  display: flex;\n  align-items: center;\n  height: 20px;\n  flex: 1 0 auto;\n  align-self: center;\n  margin: 0 calc(10px + 1%);\n  cursor: pointer;\n  -webkit-user-select: none;\n}\n.rhap_progress-container:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_time {\n  color: #333;\n  font-size: 16px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n.rhap_progress-bar {\n  box-sizing: border-box;\n  position: relative;\n  z-index: 0;\n  width: 100%;\n  height: 5px;\n  background-color: #dddddd;\n  border-radius: 2px;\n}\n.rhap_progress-filled {\n  height: 100%;\n  position: absolute;\n  z-index: 2;\n  background-color: #868686;\n  border-radius: 2px;\n}\n.rhap_progress-bar-show-download {\n  background-color: rgba(221, 221, 221, 0.5);\n}\n.rhap_download-progress {\n  height: 100%;\n  position: absolute;\n  z-index: 1;\n  background-color: #dddddd;\n  border-radius: 2px;\n}\n.rhap_progress-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  z-index: 3;\n  width: 20px;\n  height: 20px;\n  margin-left: -10px;\n  top: -8px;\n  background: #868686;\n  border-radius: 50px;\n  box-shadow: rgba(134, 134, 134, 0.5) 0 0 5px;\n}\n.rhap_controls-section {\n  display: flex;\n  flex: 1 1 auto;\n  justify-content: space-between;\n  align-items: center;\n}\n.rhap_additional-controls {\n  display: flex;\n  flex: 1 0 auto;\n  align-items: center;\n}\n.rhap_repeat-button {\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: #868686;\n  margin-right: 6px;\n}\n.rhap_main-controls {\n  flex: 0 1 auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.rhap_main-controls-button {\n  margin: 0 3px;\n  color: #868686;\n  font-size: 35px;\n  width: 35px;\n  height: 35px;\n}\n.rhap_play-pause-button {\n  font-size: 40px;\n  width: 40px;\n  height: 40px;\n}\n.rhap_volume-controls {\n  display: flex;\n  flex: 1 0 auto;\n  justify-content: flex-end;\n  align-items: center;\n}\n.rhap_volume-button {\n  flex: 0 0 26px;\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: #868686;\n  margin-right: 6px;\n}\n.rhap_volume-container {\n  display: flex;\n  align-items: center;\n  flex: 0 1 100px;\n  -webkit-user-select: none;\n}\n.rhap_volume-bar-area {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  height: 14px;\n  cursor: pointer;\n}\n.rhap_volume-bar-area:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_volume-bar {\n  box-sizing: border-box;\n  position: relative;\n  width: 100%;\n  height: 4px;\n  background: #dddddd;\n  border-radius: 2px;\n}\n.rhap_volume-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  width: 12px;\n  height: 12px;\n  margin-left: -6px;\n  left: 0;\n  top: -4px;\n  background: #868686;\n  opacity: 0.9;\n  border-radius: 50px;\n  box-shadow: rgba(134, 134, 134, 0.5) 0 0 3px;\n  cursor: pointer;\n}\n.rhap_volume-indicator:hover {\n  opacity: 0.9;\n}\n/* Utils */\n.rhap_button-clear {\n  background-color: transparent;\n  border: none;\n  padding: 0;\n  overflow: hidden;\n  cursor: pointer;\n}\n.rhap_button-clear:hover {\n  opacity: 0.9;\n  transition-duration: 0.2s;\n}\n.rhap_button-clear:active {\n  opacity: 0.95;\n}\n.rhap_button-clear:focus:not(:focus-visible) {\n  outline: 0;\n}\n", "",{"version":3,"sources":["/Users/yulyavorontsova/songbird/node_modules/react-h5-audio-player/lib/styles.less","styles.less"],"names":[],"mappings":"AAMA;EACE,sBAAA;EACA,aAAA;EACA,sBAAA;EACA,cAAA;EACA,oBAAA;EACA,WAAA;EACA,kBAAA;EACA,sBAAA;EACA,wCAAA;ACLF;ADOE;EACE,UAAA;ACLJ;ADPA;EAgBI,uBAAA;ACNJ;ADUA;EACE,mBAAA;ACRF;ADWA;EACE,eAAA;ACTF;ADYA;EACE,aAAA;EACA,sBAAA;EACA,cAAA;ACVF;ADaA;EAEI,eAAA;ACZJ;ADgBA;EACE,mBAAA;ACdF;ADaA;EAII,gBAAA;ACdJ;ADkBA;EACE,2BAAA;AChBF;ADeA;EAII,iBAAA;AChBJ;ADoBA;EACE,8BAAA;AClBF;ADiBA;EAII,kBAAA;AClBJ;ADsBA;EACE,aAAA;EACA,cAAA;EACA,mBAAA;ACpBF;ADuBA;EACE,aAAA;EACA,mBAAA;EACA,YAAA;EACA,cAAA;EACA,kBAAA;EACA,yBAAA;EACA,eAAA;EACA,yBAAA;ACrBF;ADuBE;EACE,UAAA;ACrBJ;ADyBA;EACE,WAAA;EACA,eAAA;EACA,iBAAA;EACA,yBAAA;ACvBF;AD0BA;EACE,sBAAA;EACA,kBAAA;EACA,UAAA;EACA,WAAA;EACA,WAAA;EACA,yBAAA;EACA,kBAAA;ACxBF;AD2BA;EACE,YAAA;EACA,kBAAA;EACA,UAAA;EACA,yBAAA;EACA,kBAAA;ACzBF;AD4BA;EACE,0CAAA;AC1BF;AD6BA;EACE,YAAA;EACA,kBAAA;EACA,UAAA;EACA,yBAAA;EACA,kBAAA;AC3BF;AD8BA;EACE,sBAAA;EACA,kBAAA;EACA,UAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,SAAA;EACA,mBAAA;EACA,mBAAA;EACA,4CAAA;AC5BF;AD+BA;EACE,aAAA;EACA,cAAA;EACA,8BAAA;EACA,mBAAA;AC7BF;ADgCA;EACE,aAAA;EACA,cAAA;EACA,mBAAA;AC9BF;ADiCA;EACE,eAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,iBAAA;AC/BF;ADkCA;EACE,cAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AChCF;ADmCA;EACE,aAAA;EACA,cAAA;EACA,eAAA;EACA,WAAA;EACA,YAAA;ACjCF;ADoCA;EACE,eAAA;EACA,WAAA;EACA,YAAA;AClCF;ADsCA;EACE,aAAA;EACA,cAAA;EACA,yBAAA;EACA,mBAAA;ACpCF;ADuCA;EACE,cAAA;EACA,eAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,iBAAA;ACrCF;ADwCA;EACE,aAAA;EACA,mBAAA;EACA,eAAA;EACA,yBAAA;ACtCF;ADyCA;EACE,aAAA;EACA,mBAAA;EACA,WAAA;EACA,YAAA;EACA,eAAA;ACvCF;ADyCE;EACE,UAAA;ACvCJ;AD2CA;EACE,sBAAA;EACA,kBAAA;EACA,WAAA;EACA,WAAA;EACA,mBAAA;EACA,kBAAA;ACzCF;AD4CA;EACE,sBAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,iBAAA;EACA,OAAA;EACA,SAAA;EACA,mBAAA;EACA,YAAA;EACA,mBAAA;EACA,4CAAA;EACA,eAAA;AC1CF;AD4CE;EACE,YAAA;AC1CJ;AACA,UAAU;AD8CV;EACE,6BAAA;EACA,YAAA;EACA,UAAA;EACA,gBAAA;EACA,eAAA;AC5CF;AD8CE;EACE,YAAA;EACA,yBAAA;AC5CJ;AD+CE;EACE,aAAA;AC7CJ;ADgDE;EACE,UAAA;AC9CJ","file":"styles.less","sourcesContent":["@rhap_theme-color: #868686;\n@rhap_background-color: #fff;\n@rhap_bar-color: #dddddd;\n@rhap_time-color: #333;\n@rhap_font-family: inherit;\n\n.rhap_container {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  line-height: 1;\n  font-family: @rhap_font-family;\n  width: 100%;\n  padding: 10px 15px;\n  background-color: @rhap_background-color;\n  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);\n\n  &:focus:not(:focus-visible) {\n    outline: 0;\n  }\n\n  svg {\n    vertical-align: initial; // overwrite Bootstrap default\n  }\n}\n\n.rhap_header {\n  margin-bottom: 10px;\n}\n\n.rhap_footer {\n  margin-top: 5px;\n}\n\n.rhap_main {\n  display: flex;\n  flex-direction: column;\n  flex: 1 1 auto;\n}\n\n.rhap_stacked {\n  .rhap_controls-section {\n    margin-top: 8px;\n  }\n}\n\n.rhap_horizontal {\n  flex-direction: row;\n\n  .rhap_controls-section {\n    margin-left: 8px;\n  }\n}\n\n.rhap_horizontal-reverse {\n  flex-direction: row-reverse;\n\n  .rhap_controls-section {\n    margin-right: 8px;\n  }\n}\n\n.rhap_stacked-reverse {\n  flex-direction: column-reverse;\n\n  .rhap_controls-section {\n    margin-bottom: 8px;\n  }\n}\n\n.rhap_progress-section {\n  display: flex;\n  flex: 3 1 auto;\n  align-items: center;\n}\n\n.rhap_progress-container {\n  display: flex;\n  align-items: center;\n  height: 20px;\n  flex: 1 0 auto;\n  align-self: center;\n  margin: 0 calc(~\"10px + 1%\");\n  cursor: pointer;\n  -webkit-user-select: none; \n\n  &:focus:not(:focus-visible) {\n    outline: 0;\n  }\n}\n\n.rhap_time {\n  color: @rhap_time-color;\n  font-size: 16px;\n  user-select: none;\n  -webkit-user-select: none; \n}\n\n.rhap_progress-bar {\n  box-sizing: border-box;\n  position: relative;\n  z-index: 0;\n  width: 100%;\n  height: 5px;\n  background-color: @rhap_bar-color;\n  border-radius: 2px;\n}\n\n.rhap_progress-filled {\n  height: 100%;\n  position: absolute;\n  z-index: 2;\n  background-color: @rhap_theme-color;\n  border-radius: 2px;\n}\n\n.rhap_progress-bar-show-download {\n  background-color: fade(@rhap_bar-color, (0.5*100));\n}\n\n.rhap_download-progress {\n  height: 100%;\n  position: absolute;\n  z-index: 1;\n  background-color: @rhap_bar-color;\n  border-radius: 2px;\n}\n\n.rhap_progress-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  z-index: 3;\n  width: 20px;\n  height: 20px;\n  margin-left: -10px;\n  top: -8px;\n  background: @rhap_theme-color;\n  border-radius: 50px;\n  box-shadow: fade(@rhap_theme-color, (.5*100)) 0 0 5px;\n}\n\n.rhap_controls-section {\n  display: flex;\n  flex: 1 1 auto;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.rhap_additional-controls {\n  display: flex;\n  flex: 1 0 auto;\n  align-items: center;\n}\n\n.rhap_repeat-button {\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: @rhap_theme-color;\n  margin-right: 6px;\n}\n\n.rhap_main-controls {\n  flex: 0 1 auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.rhap_main-controls-button {\n  margin: 0 3px;\n  color: @rhap_theme-color;\n  font-size: 35px;\n  width: 35px;\n  height: 35px;\n}\n\n.rhap_play-pause-button {\n  font-size: 40px;\n  width: 40px;\n  height: 40px;\n  \n}\n\n.rhap_volume-controls {\n  display: flex;\n  flex: 1 0 auto;\n  justify-content: flex-end;\n  align-items: center;\n}\n\n.rhap_volume-button {\n  flex: 0 0 26px;\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: @rhap_theme-color;\n  margin-right: 6px;\n}\n\n.rhap_volume-container {\n  display: flex;\n  align-items: center;\n  flex: 0 1 100px;\n  -webkit-user-select: none; \n}\n\n.rhap_volume-bar-area {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  height: 14px;\n  cursor: pointer;\n\n  &:focus:not(:focus-visible) {\n    outline: 0;\n  }\n}\n\n.rhap_volume-bar {\n  box-sizing: border-box;\n  position: relative;\n  width: 100%;\n  height: 4px;\n  background: @rhap_bar-color;\n  border-radius: 2px;\n}\n\n.rhap_volume-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  width: 12px;\n  height: 12px;\n  margin-left: -6px;\n  left: 0;\n  top: -4px;\n  background: @rhap_theme-color;\n  opacity: 0.9;\n  border-radius: 50px;\n  box-shadow: fade(@rhap_theme-color, (.5*100)) 0 0 3px;\n  cursor: pointer;\n\n  &:hover {\n    opacity: .9;\n  }\n}\n\n/* Utils */\n.rhap_button-clear {\n  background-color: transparent;\n  border: none;\n  padding: 0;\n  overflow: hidden;\n  cursor: pointer;\n\n  &:hover {\n    opacity: .9;\n    transition-duration: .2s;\n  }\n\n  &:active {\n    opacity: .95;\n  }\n\n  &:focus:not(:focus-visible) {\n    outline: 0;\n  }\n}\n",".rhap_container {\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  line-height: 1;\n  font-family: inherit;\n  width: 100%;\n  padding: 10px 15px;\n  background-color: #fff;\n  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);\n}\n.rhap_container:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_container svg {\n  vertical-align: initial;\n}\n.rhap_header {\n  margin-bottom: 10px;\n}\n.rhap_footer {\n  margin-top: 5px;\n}\n.rhap_main {\n  display: flex;\n  flex-direction: column;\n  flex: 1 1 auto;\n}\n.rhap_stacked .rhap_controls-section {\n  margin-top: 8px;\n}\n.rhap_horizontal {\n  flex-direction: row;\n}\n.rhap_horizontal .rhap_controls-section {\n  margin-left: 8px;\n}\n.rhap_horizontal-reverse {\n  flex-direction: row-reverse;\n}\n.rhap_horizontal-reverse .rhap_controls-section {\n  margin-right: 8px;\n}\n.rhap_stacked-reverse {\n  flex-direction: column-reverse;\n}\n.rhap_stacked-reverse .rhap_controls-section {\n  margin-bottom: 8px;\n}\n.rhap_progress-section {\n  display: flex;\n  flex: 3 1 auto;\n  align-items: center;\n}\n.rhap_progress-container {\n  display: flex;\n  align-items: center;\n  height: 20px;\n  flex: 1 0 auto;\n  align-self: center;\n  margin: 0 calc(10px + 1%);\n  cursor: pointer;\n  -webkit-user-select: none;\n}\n.rhap_progress-container:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_time {\n  color: #333;\n  font-size: 16px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n.rhap_progress-bar {\n  box-sizing: border-box;\n  position: relative;\n  z-index: 0;\n  width: 100%;\n  height: 5px;\n  background-color: #dddddd;\n  border-radius: 2px;\n}\n.rhap_progress-filled {\n  height: 100%;\n  position: absolute;\n  z-index: 2;\n  background-color: #868686;\n  border-radius: 2px;\n}\n.rhap_progress-bar-show-download {\n  background-color: rgba(221, 221, 221, 0.5);\n}\n.rhap_download-progress {\n  height: 100%;\n  position: absolute;\n  z-index: 1;\n  background-color: #dddddd;\n  border-radius: 2px;\n}\n.rhap_progress-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  z-index: 3;\n  width: 20px;\n  height: 20px;\n  margin-left: -10px;\n  top: -8px;\n  background: #868686;\n  border-radius: 50px;\n  box-shadow: rgba(134, 134, 134, 0.5) 0 0 5px;\n}\n.rhap_controls-section {\n  display: flex;\n  flex: 1 1 auto;\n  justify-content: space-between;\n  align-items: center;\n}\n.rhap_additional-controls {\n  display: flex;\n  flex: 1 0 auto;\n  align-items: center;\n}\n.rhap_repeat-button {\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: #868686;\n  margin-right: 6px;\n}\n.rhap_main-controls {\n  flex: 0 1 auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.rhap_main-controls-button {\n  margin: 0 3px;\n  color: #868686;\n  font-size: 35px;\n  width: 35px;\n  height: 35px;\n}\n.rhap_play-pause-button {\n  font-size: 40px;\n  width: 40px;\n  height: 40px;\n}\n.rhap_volume-controls {\n  display: flex;\n  flex: 1 0 auto;\n  justify-content: flex-end;\n  align-items: center;\n}\n.rhap_volume-button {\n  flex: 0 0 26px;\n  font-size: 26px;\n  width: 26px;\n  height: 26px;\n  color: #868686;\n  margin-right: 6px;\n}\n.rhap_volume-container {\n  display: flex;\n  align-items: center;\n  flex: 0 1 100px;\n  -webkit-user-select: none;\n}\n.rhap_volume-bar-area {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  height: 14px;\n  cursor: pointer;\n}\n.rhap_volume-bar-area:focus:not(:focus-visible) {\n  outline: 0;\n}\n.rhap_volume-bar {\n  box-sizing: border-box;\n  position: relative;\n  width: 100%;\n  height: 4px;\n  background: #dddddd;\n  border-radius: 2px;\n}\n.rhap_volume-indicator {\n  box-sizing: border-box;\n  position: absolute;\n  width: 12px;\n  height: 12px;\n  margin-left: -6px;\n  left: 0;\n  top: -4px;\n  background: #868686;\n  opacity: 0.9;\n  border-radius: 50px;\n  box-shadow: rgba(134, 134, 134, 0.5) 0 0 3px;\n  cursor: pointer;\n}\n.rhap_volume-indicator:hover {\n  opacity: 0.9;\n}\n/* Utils */\n.rhap_button-clear {\n  background-color: transparent;\n  border: none;\n  padding: 0;\n  overflow: hidden;\n  cursor: pointer;\n}\n.rhap_button-clear:hover {\n  opacity: 0.9;\n  transition-duration: 0.2s;\n}\n.rhap_button-clear:active {\n  opacity: 0.95;\n}\n.rhap_button-clear:focus:not(:focus-visible) {\n  outline: 0;\n}\n"]}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
 }
 
 /***/ }),
@@ -26209,6 +27278,1463 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-h5-audio-player/es/CurrentTime.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/CurrentTime.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils */ "./node_modules/react-h5-audio-player/es/utils.js");
+
+
+
+
+
+
+var CurrentTime = function (_PureComponent) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(CurrentTime, _PureComponent);
+
+  function CurrentTime() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _PureComponent.call.apply(_PureComponent, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "audio", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "hasAddedAudioEventListener", false);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "state", {
+      currentTime: _this.props.defaultCurrentTime
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleAudioCurrentTimeChange", function (e) {
+      var audio = e.target;
+      var _this$props = _this.props,
+          isLeftTime = _this$props.isLeftTime,
+          timeFormat = _this$props.timeFormat,
+          defaultCurrentTime = _this$props.defaultCurrentTime;
+
+      _this.setState({
+        currentTime: Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getDisplayTimeBySeconds"])(isLeftTime ? audio.duration - audio.currentTime : audio.currentTime, audio.duration, timeFormat) || defaultCurrentTime
+      });
+    });
+
+    return _this;
+  }
+
+  var _proto = CurrentTime.prototype;
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    var audio = this.props.audio;
+
+    if (audio && !this.hasAddedAudioEventListener) {
+      this.audio = audio;
+      this.hasAddedAudioEventListener = true;
+      audio.addEventListener('timeupdate', this.handleAudioCurrentTimeChange);
+      audio.addEventListener('loadedmetadata', this.handleAudioCurrentTimeChange);
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.audio && this.hasAddedAudioEventListener) {
+      this.audio.removeEventListener('timeupdate', this.handleAudioCurrentTimeChange);
+      this.audio.removeEventListener('loadedmetadata', this.handleAudioCurrentTimeChange);
+    }
+  };
+
+  _proto.render = function render() {
+    return this.state.currentTime;
+  };
+
+  return CurrentTime;
+}(react__WEBPACK_IMPORTED_MODULE_3__["PureComponent"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (CurrentTime);
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/Duration.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/Duration.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils */ "./node_modules/react-h5-audio-player/es/utils.js");
+
+
+
+
+
+
+var Duration = function (_PureComponent) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(Duration, _PureComponent);
+
+  function Duration() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _PureComponent.call.apply(_PureComponent, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "audio", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "hasAddedAudioEventListener", false);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "state", {
+      duration: _this.props.defaultDuration
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleAudioDurationChange", function (e) {
+      var audio = e.target;
+      var _this$props = _this.props,
+          timeFormat = _this$props.timeFormat,
+          defaultDuration = _this$props.defaultDuration;
+
+      _this.setState({
+        duration: Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getDisplayTimeBySeconds"])(audio.duration, audio.duration, timeFormat) || defaultDuration
+      });
+    });
+
+    return _this;
+  }
+
+  var _proto = Duration.prototype;
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    var audio = this.props.audio;
+
+    if (audio && !this.hasAddedAudioEventListener) {
+      this.audio = audio;
+      this.hasAddedAudioEventListener = true;
+      audio.addEventListener('durationchange', this.handleAudioDurationChange);
+      audio.addEventListener('abort', this.handleAudioDurationChange);
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.audio && this.hasAddedAudioEventListener) {
+      this.audio.removeEventListener('durationchange', this.handleAudioDurationChange);
+      this.audio.removeEventListener('abort', this.handleAudioDurationChange);
+    }
+  };
+
+  _proto.render = function render() {
+    return this.state.duration;
+  };
+
+  return Duration;
+}(react__WEBPACK_IMPORTED_MODULE_3__["PureComponent"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Duration);
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/ProgressBar.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/ProgressBar.js ***!
+  \**************************************************************/
+/*! exports provided: default, ProgressBar, ProgressBarForwardRef */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return ProgressBar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBarForwardRef", function() { return ProgressBarForwardRef; });
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js");
+/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils */ "./node_modules/react-h5-audio-player/es/utils.js");
+
+
+
+
+
+
+
+var ProgressBar = function (_Component) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default()(ProgressBar, _Component);
+
+  function ProgressBar() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "audio", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "timeOnMouseMove", 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "hasAddedAudioEventListener", false);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "downloadProgressAnimationTimer", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "state", {
+      isDraggingProgress: false,
+      currentTimePos: '0%',
+      hasDownloadProgressAnimation: false,
+      downloadProgressArr: []
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "getCurrentProgress", function (event) {
+      var _this$props = _this.props,
+          audio = _this$props.audio,
+          progressBar = _this$props.progressBar;
+
+      if (!audio.src || !isFinite(audio.currentTime) || !progressBar.current) {
+        return {
+          currentTime: 0,
+          currentTimePos: '0%'
+        };
+      }
+
+      var progressBarRect = progressBar.current.getBoundingClientRect();
+      var maxRelativePos = progressBarRect.width;
+      var relativePos = Object(_utils__WEBPACK_IMPORTED_MODULE_5__["getPosX"])(event) - progressBarRect.left;
+
+      if (relativePos < 0) {
+        relativePos = 0;
+      } else if (relativePos > maxRelativePos) {
+        relativePos = maxRelativePos;
+      }
+
+      var currentTime = _this.props.audio.duration * relativePos / maxRelativePos;
+      return {
+        currentTime: currentTime,
+        currentTimePos: (relativePos / maxRelativePos * 100).toFixed(2) + "%"
+      };
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleContextMenu", function (event) {
+      event.preventDefault();
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleMouseDownOrTouchStartProgressBar", function (event) {
+      event.stopPropagation();
+
+      var _this$getCurrentProgr = _this.getCurrentProgress(event.nativeEvent),
+          currentTime = _this$getCurrentProgr.currentTime,
+          currentTimePos = _this$getCurrentProgr.currentTimePos;
+
+      if (isFinite(currentTime)) {
+        _this.timeOnMouseMove = currentTime;
+
+        _this.setState({
+          isDraggingProgress: true,
+          currentTimePos: currentTimePos
+        });
+
+        if (event.nativeEvent instanceof MouseEvent) {
+          window.addEventListener('mousemove', _this.handleWindowMouseOrTouchMove);
+          window.addEventListener('mouseup', _this.handleWindowMouseOrTouchUp);
+        } else {
+          window.addEventListener('touchmove', _this.handleWindowMouseOrTouchMove);
+          window.addEventListener('touchend', _this.handleWindowMouseOrTouchUp);
+        }
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleWindowMouseOrTouchMove", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var windowSelection = window.getSelection();
+
+      if (windowSelection && windowSelection.type === 'Range') {
+        windowSelection.empty();
+      }
+
+      var isDraggingProgress = _this.state.isDraggingProgress;
+
+      if (isDraggingProgress) {
+        var _this$getCurrentProgr2 = _this.getCurrentProgress(event),
+            currentTime = _this$getCurrentProgr2.currentTime,
+            currentTimePos = _this$getCurrentProgr2.currentTimePos;
+
+        _this.timeOnMouseMove = currentTime;
+
+        _this.setState({
+          currentTimePos: currentTimePos
+        });
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleWindowMouseOrTouchUp", function (event) {
+      event.stopPropagation();
+
+      _this.setState(function (prevState) {
+        if (prevState.isDraggingProgress && isFinite(_this.timeOnMouseMove)) {
+          _this.props.audio.currentTime = _this.timeOnMouseMove;
+        }
+
+        return {
+          isDraggingProgress: false
+        };
+      });
+
+      if (event instanceof MouseEvent) {
+        window.removeEventListener('mousemove', _this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('mouseup', _this.handleWindowMouseOrTouchUp);
+      } else {
+        window.removeEventListener('touchmove', _this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('touchend', _this.handleWindowMouseOrTouchUp);
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleAudioTimeUpdate", Object(_utils__WEBPACK_IMPORTED_MODULE_5__["throttle"])(function (e) {
+      var isDraggingProgress = _this.state.isDraggingProgress;
+      var audio = e.target;
+      if (isDraggingProgress) return;
+      var duration = audio.duration,
+          currentTime = audio.currentTime;
+
+      _this.setState({
+        currentTimePos: (currentTime / duration * 100 || 0).toFixed(2) + "%"
+      });
+    }, _this.props.progressUpdateInterval));
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "handleAudioDownloadProgressUpdate", function (e) {
+      var audio = e.target;
+      var downloadProgressArr = [];
+
+      for (var i = 0; i < audio.buffered.length; i++) {
+        var bufferedStart = audio.buffered.start(i);
+        var bufferedEnd = audio.buffered.end(i);
+        downloadProgressArr.push({
+          left: (Math.round(100 / audio.duration * bufferedStart) || 0) + "%",
+          width: (Math.round(100 / audio.duration * (bufferedEnd - bufferedStart)) || 0) + "%"
+        });
+      }
+
+      clearTimeout(_this.downloadProgressAnimationTimer);
+
+      _this.setState({
+        downloadProgressArr: downloadProgressArr,
+        hasDownloadProgressAnimation: true
+      });
+
+      _this.downloadProgressAnimationTimer = setTimeout(function () {
+        _this.setState({
+          hasDownloadProgressAnimation: false
+        });
+      }, 200);
+    });
+
+    return _this;
+  }
+
+  var _proto = ProgressBar.prototype;
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    var audio = this.props.audio;
+
+    if (audio && !this.hasAddedAudioEventListener) {
+      this.audio = audio;
+      this.hasAddedAudioEventListener = true;
+      audio.addEventListener('timeupdate', this.handleAudioTimeUpdate);
+      audio.addEventListener('progress', this.handleAudioDownloadProgressUpdate);
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.audio && this.hasAddedAudioEventListener) {
+      this.audio.removeEventListener('timeupdate', this.handleAudioTimeUpdate);
+      this.audio.removeEventListener('progress', this.handleAudioDownloadProgressUpdate);
+    }
+
+    clearTimeout(this.downloadProgressAnimationTimer);
+  };
+
+  _proto.render = function render() {
+    var _this$props2 = this.props,
+        showDownloadProgress = _this$props2.showDownloadProgress,
+        showFilledProgress = _this$props2.showFilledProgress,
+        progressBar = _this$props2.progressBar;
+    var _this$state = this.state,
+        currentTimePos = _this$state.currentTimePos,
+        downloadProgressArr = _this$state.downloadProgressArr,
+        hasDownloadProgressAnimation = _this$state.hasDownloadProgressAnimation;
+    return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+      className: "rhap_progress-container",
+      ref: progressBar,
+      "aria-label": "Audio Progress Control",
+      role: "progressbar",
+      "aria-valuemin": 0,
+      "aria-valuemax": 100,
+      "aria-valuenow": Number(currentTimePos.split('%')[0]),
+      tabIndex: 0,
+      onMouseDown: this.handleMouseDownOrTouchStartProgressBar,
+      onTouchStart: this.handleMouseDownOrTouchStartProgressBar,
+      onContextMenu: this.handleContextMenu
+    }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+      className: "rhap_progress-bar " + (showDownloadProgress ? 'rhap_progress-bar-show-download' : '')
+    }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+      className: "rhap_progress-indicator",
+      style: {
+        left: currentTimePos
+      }
+    }), showFilledProgress && react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+      className: "rhap_progress-filled",
+      style: {
+        width: currentTimePos
+      }
+    }), showDownloadProgress && downloadProgressArr.map(function (_ref, i) {
+      var left = _ref.left,
+          width = _ref.width;
+      return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+        key: i,
+        className: "rhap_download-progress",
+        style: {
+          left: left,
+          width: width,
+          transitionDuration: hasDownloadProgressAnimation ? '.2s' : '0s'
+        }
+      });
+    })));
+  };
+
+  return ProgressBar;
+}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+
+var ProgressBarForwardRef = function ProgressBarForwardRef(props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(ProgressBar, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, props, {
+    progressBar: ref
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react__WEBPACK_IMPORTED_MODULE_4__["forwardRef"])(ProgressBarForwardRef));
+
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/VolumeBar.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/VolumeBar.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils */ "./node_modules/react-h5-audio-player/es/utils.js");
+
+
+
+
+
+
+var VolumeControls = function (_Component) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(VolumeControls, _Component);
+
+  function VolumeControls() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "audio", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "hasAddedAudioEventListener", false);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "volumeBar", Object(react__WEBPACK_IMPORTED_MODULE_3__["createRef"])());
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "volumeAnimationTimer", 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "lastVolume", _this.props.volume);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "state", {
+      currentVolumePos: (_this.lastVolume / 1 * 100 || 0).toFixed(2) + "%",
+      hasVolumeAnimation: false,
+      isDraggingVolume: false
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "getCurrentVolume", function (event) {
+      var audio = _this.props.audio;
+
+      if (!_this.volumeBar.current) {
+        return {
+          currentVolume: audio.volume,
+          currentVolumePos: _this.state.currentVolumePos
+        };
+      }
+
+      var volumeBarRect = _this.volumeBar.current.getBoundingClientRect();
+
+      var maxRelativePos = volumeBarRect.width;
+      var relativePos = Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getPosX"])(event) - volumeBarRect.left;
+      var currentVolume;
+      var currentVolumePos;
+
+      if (relativePos < 0) {
+        currentVolume = 0;
+        currentVolumePos = '0%';
+      } else if (relativePos > volumeBarRect.width) {
+        currentVolume = 1;
+        currentVolumePos = '100%';
+      } else {
+        currentVolume = relativePos / maxRelativePos;
+        currentVolumePos = relativePos / maxRelativePos * 100 + "%";
+      }
+
+      return {
+        currentVolume: currentVolume,
+        currentVolumePos: currentVolumePos
+      };
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleContextMenu", function (event) {
+      event.preventDefault();
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleClickVolumeButton", function () {
+      var audio = _this.props.audio;
+
+      if (audio.volume > 0) {
+        _this.lastVolume = audio.volume;
+        audio.volume = 0;
+      } else {
+        audio.volume = _this.lastVolume;
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleVolumnControlMouseOrTouchDown", function (event) {
+      event.stopPropagation();
+      var audio = _this.props.audio;
+
+      var _this$getCurrentVolum = _this.getCurrentVolume(event.nativeEvent),
+          currentVolume = _this$getCurrentVolum.currentVolume,
+          currentVolumePos = _this$getCurrentVolum.currentVolumePos;
+
+      audio.volume = currentVolume;
+
+      _this.setState({
+        isDraggingVolume: true,
+        currentVolumePos: currentVolumePos
+      });
+
+      if (event.nativeEvent instanceof MouseEvent) {
+        window.addEventListener('mousemove', _this.handleWindowMouseOrTouchMove);
+        window.addEventListener('mouseup', _this.handleWindowMouseOrTouchUp);
+      } else {
+        window.addEventListener('touchmove', _this.handleWindowMouseOrTouchMove);
+        window.addEventListener('touchend', _this.handleWindowMouseOrTouchUp);
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleWindowMouseOrTouchMove", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      var audio = _this.props.audio;
+      var windowSelection = window.getSelection();
+
+      if (windowSelection && windowSelection.type === 'Range') {
+        windowSelection.empty();
+      }
+
+      var isDraggingVolume = _this.state.isDraggingVolume;
+
+      if (isDraggingVolume) {
+        var _this$getCurrentVolum2 = _this.getCurrentVolume(event),
+            currentVolume = _this$getCurrentVolum2.currentVolume,
+            currentVolumePos = _this$getCurrentVolum2.currentVolumePos;
+
+        audio.volume = currentVolume;
+
+        _this.setState({
+          currentVolumePos: currentVolumePos
+        });
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleWindowMouseOrTouchUp", function (event) {
+      event.stopPropagation();
+
+      _this.setState({
+        isDraggingVolume: false
+      });
+
+      if (event instanceof MouseEvent) {
+        window.removeEventListener('mousemove', _this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('mouseup', _this.handleWindowMouseOrTouchUp);
+      } else {
+        window.removeEventListener('touchmove', _this.handleWindowMouseOrTouchMove);
+        window.removeEventListener('touchend', _this.handleWindowMouseOrTouchUp);
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleAudioVolumeChange", function (e) {
+      var isDraggingVolume = _this.state.isDraggingVolume;
+      var _ref = e.target,
+          volume = _ref.volume;
+
+      if (_this.lastVolume > 0 && volume === 0 || _this.lastVolume === 0 && volume > 0) {
+        _this.props.onMuteChange();
+      }
+
+      _this.lastVolume = volume;
+      if (isDraggingVolume) return;
+
+      _this.setState({
+        hasVolumeAnimation: true,
+        currentVolumePos: (volume / 1 * 100 || 0).toFixed(2) + "%"
+      });
+
+      clearTimeout(_this.volumeAnimationTimer);
+      _this.volumeAnimationTimer = setTimeout(function () {
+        _this.setState({
+          hasVolumeAnimation: false
+        });
+      }, 100);
+    });
+
+    return _this;
+  }
+
+  var _proto = VolumeControls.prototype;
+
+  _proto.componentDidUpdate = function componentDidUpdate() {
+    var audio = this.props.audio;
+
+    if (audio && !this.hasAddedAudioEventListener) {
+      this.audio = audio;
+      this.hasAddedAudioEventListener = true;
+      audio.addEventListener('volumechange', this.handleAudioVolumeChange);
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    if (this.audio && this.hasAddedAudioEventListener) {
+      this.audio.removeEventListener('volumechange', this.handleAudioVolumeChange);
+    }
+
+    clearTimeout(this.volumeAnimationTimer);
+  };
+
+  _proto.render = function render() {
+    var audio = this.props.audio;
+    var _this$state = this.state,
+        currentVolumePos = _this$state.currentVolumePos,
+        hasVolumeAnimation = _this$state.hasVolumeAnimation;
+
+    var _ref2 = audio || {},
+        volume = _ref2.volume;
+
+    return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      ref: this.volumeBar,
+      onMouseDown: this.handleVolumnControlMouseOrTouchDown,
+      onTouchStart: this.handleVolumnControlMouseOrTouchDown,
+      onContextMenu: this.handleContextMenu,
+      role: "progressbar",
+      "aria-label": "volume Control",
+      "aria-valuemin": 0,
+      "aria-valuemax": 100,
+      "aria-valuenow": Number((volume * 100).toFixed(0)),
+      tabIndex: 0,
+      className: "rhap_volume-bar-area"
+    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_volume-bar"
+    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_volume-indicator",
+      style: {
+        left: currentVolumePos,
+        transitionDuration: hasVolumeAnimation ? '.1s' : '0s'
+      }
+    })));
+  };
+
+  return VolumeControls;
+}(react__WEBPACK_IMPORTED_MODULE_3__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (VolumeControls);
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/constants.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/constants.js ***!
+  \************************************************************/
+/*! exports provided: RHAP_UI */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RHAP_UI", function() { return RHAP_UI; });
+var RHAP_UI;
+
+(function (RHAP_UI) {
+  RHAP_UI["CURRENT_TIME"] = "CURRENT_TIME";
+  RHAP_UI["CURRENT_LEFT_TIME"] = "CURRENT_LEFT_TIME";
+  RHAP_UI["PROGRESS_BAR"] = "PROGRESS_BAR";
+  RHAP_UI["DURATION"] = "DURATION";
+  RHAP_UI["ADDITIONAL_CONTROLS"] = "ADDITIONAL_CONTROLS";
+  RHAP_UI["MAIN_CONTROLS"] = "MAIN_CONTROLS";
+  RHAP_UI["VOLUME_CONTROLS"] = "VOLUME_CONTROLS";
+  RHAP_UI["LOOP"] = "LOOP";
+  RHAP_UI["VOLUME"] = "VOLUME";
+})(RHAP_UI || (RHAP_UI = {}));
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/index.js ***!
+  \********************************************************/
+/*! exports provided: default, RHAP_UI */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @iconify/react */ "./node_modules/@iconify/react/dist/icon.js");
+/* harmony import */ var _iconify_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_iconify_react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @iconify/icons-mdi/play-circle */ "./node_modules/@iconify/icons-mdi/play-circle.js");
+/* harmony import */ var _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @iconify/icons-mdi/pause-circle */ "./node_modules/@iconify/icons-mdi/pause-circle.js");
+/* harmony import */ var _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @iconify/icons-mdi/skip-previous */ "./node_modules/@iconify/icons-mdi/skip-previous.js");
+/* harmony import */ var _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @iconify/icons-mdi/skip-next */ "./node_modules/@iconify/icons-mdi/skip-next.js");
+/* harmony import */ var _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @iconify/icons-mdi/fast-forward */ "./node_modules/@iconify/icons-mdi/fast-forward.js");
+/* harmony import */ var _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @iconify/icons-mdi/rewind */ "./node_modules/@iconify/icons-mdi/rewind.js");
+/* harmony import */ var _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @iconify/icons-mdi/volume-high */ "./node_modules/@iconify/icons-mdi/volume-high.js");
+/* harmony import */ var _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @iconify/icons-mdi/volume-mute */ "./node_modules/@iconify/icons-mdi/volume-mute.js");
+/* harmony import */ var _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @iconify/icons-mdi/repeat */ "./node_modules/@iconify/icons-mdi/repeat.js");
+/* harmony import */ var _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @iconify/icons-mdi/repeat-off */ "./node_modules/@iconify/icons-mdi/repeat-off.js");
+/* harmony import */ var _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _ProgressBar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ProgressBar */ "./node_modules/react-h5-audio-player/es/ProgressBar.js");
+/* harmony import */ var _CurrentTime__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./CurrentTime */ "./node_modules/react-h5-audio-player/es/CurrentTime.js");
+/* harmony import */ var _Duration__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Duration */ "./node_modules/react-h5-audio-player/es/Duration.js");
+/* harmony import */ var _VolumeBar__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./VolumeBar */ "./node_modules/react-h5-audio-player/es/VolumeBar.js");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./constants */ "./node_modules/react-h5-audio-player/es/constants.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RHAP_UI", function() { return _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"]; });
+
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./utils */ "./node_modules/react-h5-audio-player/es/utils.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var H5AudioPlayer = function (_Component) {
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(H5AudioPlayer, _Component);
+
+  function H5AudioPlayer() {
+    var _this;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _Component.call.apply(_Component, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "audio", Object(react__WEBPACK_IMPORTED_MODULE_3__["createRef"])());
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "progressBar", Object(react__WEBPACK_IMPORTED_MODULE_3__["createRef"])());
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "container", Object(react__WEBPACK_IMPORTED_MODULE_3__["createRef"])());
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "lastVolume", _this.props.volume);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "listenTracker", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "volumeAnimationTimer", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "downloadProgressAnimationTimer", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "togglePlay", function (e) {
+      e.stopPropagation();
+      var audio = _this.audio.current;
+
+      if (audio.paused && audio.src) {
+        _this.playAudioPromise();
+      } else if (!audio.paused) {
+        audio.pause();
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "playAudioPromise", function () {
+      _this.audio.current.play().then(null).catch(function (err) {
+        var onPlayError = _this.props.onPlayError;
+        onPlayError && onPlayError(new Error(err));
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "isPlaying", function () {
+      var audio = _this.audio.current;
+      if (!audio) return false;
+      return !audio.paused && !audio.ended;
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handlePlay", function (e) {
+      _this.forceUpdate();
+
+      _this.props.onPlay && _this.props.onPlay(e);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handlePause", function (e) {
+      if (!_this.audio) return;
+
+      _this.forceUpdate();
+
+      _this.props.onPause && _this.props.onPause(e);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleAbort", function (e) {
+      _this.props.onAbort && _this.props.onAbort(e);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleClickVolumeButton", function () {
+      var audio = _this.audio.current;
+
+      if (audio.volume > 0) {
+        _this.lastVolume = audio.volume;
+        audio.volume = 0;
+      } else {
+        audio.volume = _this.lastVolume;
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleMuteChange", function () {
+      _this.forceUpdate();
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleClickLoopButton", function () {
+      _this.audio.current.loop = !_this.audio.current.loop;
+
+      _this.forceUpdate();
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleClickRewind", function () {
+      var _this$props = _this.props,
+          progressJumpSteps = _this$props.progressJumpSteps,
+          progressJumpStep = _this$props.progressJumpStep;
+      var jumpStep = progressJumpSteps.backward || progressJumpStep;
+
+      _this.setJumpTime(-jumpStep);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleClickForward", function () {
+      var _this$props2 = _this.props,
+          progressJumpSteps = _this$props2.progressJumpSteps,
+          progressJumpStep = _this$props2.progressJumpStep;
+      var jumpStep = progressJumpSteps.forward || progressJumpStep;
+
+      _this.setJumpTime(jumpStep);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "setJumpTime", function (time) {
+      var audio = _this.audio.current;
+      var duration = audio.duration,
+          prevTime = audio.currentTime;
+      if (!isFinite(duration) || !isFinite(prevTime)) return;
+      var currentTime = prevTime + time / 1000;
+
+      if (currentTime < 0) {
+        audio.currentTime = 0;
+        currentTime = 0;
+      } else if (currentTime > duration) {
+        audio.currentTime = duration;
+        currentTime = duration;
+      } else {
+        audio.currentTime = currentTime;
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "setJumpVolume", function (volume) {
+      var newVolume = _this.audio.current.volume + volume;
+      if (newVolume < 0) newVolume = 0;else if (newVolume > 1) newVolume = 1;
+      _this.audio.current.volume = newVolume;
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "handleKeyDown", function (e) {
+      switch (e.keyCode) {
+        case 32:
+          if (e.target === _this.container.current || e.target === _this.progressBar.current) {
+            e.preventDefault();
+
+            _this.togglePlay(e);
+          }
+
+          break;
+
+        case 37:
+          _this.handleClickRewind();
+
+          break;
+
+        case 39:
+          _this.handleClickForward();
+
+          break;
+
+        case 38:
+          e.preventDefault();
+
+          _this.setJumpVolume(_this.props.volumeJumpStep);
+
+          break;
+
+        case 40:
+          e.preventDefault();
+
+          _this.setJumpVolume(-_this.props.volumeJumpStep);
+
+          break;
+
+        case 76:
+          _this.handleClickLoopButton();
+
+          break;
+
+        case 77:
+          _this.handleClickVolumeButton();
+
+          break;
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "renderUIModules", function (modules) {
+      return modules.map(function (comp, i) {
+        return _this.renderUIModule(comp, i);
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "renderUIModule", function (comp, key) {
+      var _this$props3 = _this.props,
+          defaultCurrentTime = _this$props3.defaultCurrentTime,
+          progressUpdateInterval = _this$props3.progressUpdateInterval,
+          showDownloadProgress = _this$props3.showDownloadProgress,
+          showFilledProgress = _this$props3.showFilledProgress,
+          defaultDuration = _this$props3.defaultDuration,
+          customIcons = _this$props3.customIcons,
+          showSkipControls = _this$props3.showSkipControls,
+          onClickPrevious = _this$props3.onClickPrevious,
+          onClickNext = _this$props3.onClickNext,
+          showJumpControls = _this$props3.showJumpControls,
+          customAdditionalControls = _this$props3.customAdditionalControls,
+          customVolumeControls = _this$props3.customVolumeControls,
+          muted = _this$props3.muted,
+          timeFormat = _this$props3.timeFormat,
+          volumeProp = _this$props3.volume,
+          loopProp = _this$props3.loop;
+
+      switch (comp) {
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].CURRENT_TIME:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+            key: key,
+            id: "rhap_current-time",
+            className: "rhap_time rhap_current-time"
+          }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_CurrentTime__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            audio: _this.audio.current,
+            isLeftTime: false,
+            defaultCurrentTime: defaultCurrentTime,
+            timeFormat: timeFormat
+          }));
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].CURRENT_LEFT_TIME:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+            key: key,
+            id: "rhap_current-left-time",
+            className: "rhap_time rhap_current-left-time"
+          }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_CurrentTime__WEBPACK_IMPORTED_MODULE_16__["default"], {
+            audio: _this.audio.current,
+            isLeftTime: true,
+            defaultCurrentTime: defaultCurrentTime,
+            timeFormat: timeFormat
+          }));
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].PROGRESS_BAR:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_ProgressBar__WEBPACK_IMPORTED_MODULE_15__["default"], {
+            key: key,
+            ref: _this.progressBar,
+            audio: _this.audio.current,
+            progressUpdateInterval: progressUpdateInterval,
+            showDownloadProgress: showDownloadProgress,
+            showFilledProgress: showFilledProgress
+          });
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].DURATION:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+            key: key,
+            className: "rhap_time rhap_total-time"
+          }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_Duration__WEBPACK_IMPORTED_MODULE_17__["default"], {
+            audio: _this.audio.current,
+            defaultDuration: defaultDuration,
+            timeFormat: timeFormat
+          }));
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].ADDITIONAL_CONTROLS:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+            key: key,
+            className: "rhap_additional-controls"
+          }, _this.renderUIModules(customAdditionalControls));
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].MAIN_CONTROLS:
+          {
+            var isPlaying = _this.isPlaying();
+
+            var actionIcon;
+
+            if (isPlaying) {
+              actionIcon = customIcons.pause ? customIcons.pause : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_pause_circle__WEBPACK_IMPORTED_MODULE_6___default.a
+              });
+            } else {
+              actionIcon = customIcons.play ? customIcons.play : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_play_circle__WEBPACK_IMPORTED_MODULE_5___default.a
+              });
+            }
+
+            return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+              key: key,
+              className: "rhap_main-controls"
+            }, showSkipControls && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": "Previous",
+              className: "rhap_button-clear rhap_main-controls-button rhap_skip-button",
+              type: "button",
+              onClick: onClickPrevious
+            }, customIcons.previous ? customIcons.previous : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+              icon: _iconify_icons_mdi_skip_previous__WEBPACK_IMPORTED_MODULE_7___default.a
+            })), showJumpControls && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": "Rewind",
+              className: "rhap_button-clear rhap_main-controls-button rhap_rewind-button",
+              type: "button",
+              onClick: _this.handleClickRewind
+            }, customIcons.rewind ? customIcons.rewind : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+              icon: _iconify_icons_mdi_rewind__WEBPACK_IMPORTED_MODULE_10___default.a
+            })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": isPlaying ? 'Pause' : 'Play',
+              className: "rhap_button-clear rhap_main-controls-button rhap_play-pause-button",
+              type: "button",
+              onClick: _this.togglePlay
+            }, actionIcon), showJumpControls && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": "Forward",
+              className: "rhap_button-clear rhap_main-controls-button rhap_forward-button",
+              type: "button",
+              onClick: _this.handleClickForward
+            }, customIcons.forward ? customIcons.forward : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+              icon: _iconify_icons_mdi_fast_forward__WEBPACK_IMPORTED_MODULE_9___default.a
+            })), showSkipControls && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": "Skip",
+              className: "rhap_button-clear rhap_main-controls-button rhap_skip-button",
+              type: "button",
+              onClick: onClickNext
+            }, customIcons.next ? customIcons.next : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+              icon: _iconify_icons_mdi_skip_next__WEBPACK_IMPORTED_MODULE_8___default.a
+            })));
+          }
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].VOLUME_CONTROLS:
+          return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+            key: key,
+            className: "rhap_volume-controls"
+          }, _this.renderUIModules(customVolumeControls));
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].LOOP:
+          {
+            var loop = _this.audio.current ? _this.audio.current.loop : loopProp;
+            var loopIcon;
+
+            if (loop) {
+              loopIcon = customIcons.loop ? customIcons.loop : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_repeat__WEBPACK_IMPORTED_MODULE_13___default.a
+              });
+            } else {
+              loopIcon = customIcons.loopOff ? customIcons.loopOff : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_repeat_off__WEBPACK_IMPORTED_MODULE_14___default.a
+              });
+            }
+
+            return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              key: key,
+              "aria-label": loop ? 'Enable Loop' : 'Disable Loop',
+              className: "rhap_button-clear rhap_repeat-button",
+              type: "button",
+              onClick: _this.handleClickLoopButton
+            }, loopIcon);
+          }
+
+        case _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].VOLUME:
+          {
+            var _ref = _this.audio.current || {},
+                _ref$volume = _ref.volume,
+                volume = _ref$volume === void 0 ? muted ? 0 : volumeProp : _ref$volume;
+
+            var volumeIcon;
+
+            if (volume) {
+              volumeIcon = customIcons.volume ? customIcons.volume : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_volume_high__WEBPACK_IMPORTED_MODULE_11___default.a
+              });
+            } else {
+              volumeIcon = customIcons.volume ? customIcons.volumeMute : react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_iconify_react__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
+                icon: _iconify_icons_mdi_volume_mute__WEBPACK_IMPORTED_MODULE_12___default.a
+              });
+            }
+
+            return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+              key: key,
+              className: "rhap_volume-container"
+            }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("button", {
+              "aria-label": volume ? 'Mute' : 'Unmute',
+              onClick: _this.handleClickVolumeButton,
+              type: "button",
+              className: "rhap_button-clear rhap_volume-button"
+            }, volumeIcon), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_VolumeBar__WEBPACK_IMPORTED_MODULE_18__["default"], {
+              audio: _this.audio.current,
+              volume: volume,
+              onMuteChange: _this.handleMuteChange
+            }));
+          }
+
+        default:
+          if (!Object(react__WEBPACK_IMPORTED_MODULE_3__["isValidElement"])(comp)) {
+            return null;
+          }
+
+          return comp.key ? comp : Object(react__WEBPACK_IMPORTED_MODULE_3__["cloneElement"])(comp, {
+            key: key
+          });
+      }
+    });
+
+    return _this;
+  }
+
+  var _proto = H5AudioPlayer.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    var _this2 = this;
+
+    this.forceUpdate();
+    var audio = this.audio.current;
+
+    if (this.props.muted) {
+      audio.volume = 0;
+    } else {
+      audio.volume = this.lastVolume;
+    }
+
+    audio.addEventListener('error', function (e) {
+      _this2.props.onError && _this2.props.onError(e);
+    });
+    audio.addEventListener('canplay', function (e) {
+      _this2.props.onCanPlay && _this2.props.onCanPlay(e);
+    });
+    audio.addEventListener('canplaythrough', function (e) {
+      _this2.props.onCanPlayThrough && _this2.props.onCanPlayThrough(e);
+    });
+    audio.addEventListener('play', this.handlePlay);
+    audio.addEventListener('abort', this.handleAbort);
+    audio.addEventListener('ended', function (e) {
+      _this2.props.onEnded && _this2.props.onEnded(e);
+    });
+    audio.addEventListener('pause', this.handlePause);
+    audio.addEventListener('timeupdate', Object(_utils__WEBPACK_IMPORTED_MODULE_20__["throttle"])(function (e) {
+      _this2.props.onListen && _this2.props.onListen(e);
+    }, this.props.listenInterval));
+    audio.addEventListener('volumechange', function (e) {
+      _this2.props.onVolumeChange && _this2.props.onVolumeChange(e);
+    });
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    var _this$props4 = this.props,
+        src = _this$props4.src,
+        autoPlayAfterSrcChange = _this$props4.autoPlayAfterSrcChange;
+
+    if (prevProps.src !== src) {
+      if (autoPlayAfterSrcChange) {
+        this.playAudioPromise();
+      } else {
+        this.forceUpdate();
+      }
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    var audio = this.audio.current;
+
+    if (audio) {
+      audio.removeEventListener('play', this.handlePlay);
+      audio.removeEventListener('pause', this.handlePause);
+      audio.removeEventListener('abort', this.handleAbort);
+      audio.removeAttribute('src');
+      audio.load();
+    }
+  };
+
+  _proto.render = function render() {
+    var _this$props5 = this.props,
+        className = _this$props5.className,
+        src = _this$props5.src,
+        loopProp = _this$props5.loop,
+        preload = _this$props5.preload,
+        autoPlay = _this$props5.autoPlay,
+        crossOrigin = _this$props5.crossOrigin,
+        mediaGroup = _this$props5.mediaGroup,
+        header = _this$props5.header,
+        footer = _this$props5.footer,
+        layout = _this$props5.layout,
+        customProgressBarSection = _this$props5.customProgressBarSection,
+        customControlsSection = _this$props5.customControlsSection,
+        children = _this$props5.children,
+        style = _this$props5.style;
+    var loop = this.audio.current ? this.audio.current.loop : loopProp;
+    return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      role: "group",
+      tabIndex: 0,
+      "aria-label": "Audio Player",
+      className: "rhap_container " + className,
+      onKeyDown: this.handleKeyDown,
+      ref: this.container,
+      style: style
+    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("audio", {
+      src: src,
+      controls: false,
+      loop: loop,
+      autoPlay: autoPlay,
+      preload: preload,
+      crossOrigin: crossOrigin,
+      mediaGroup: mediaGroup,
+      ref: this.audio
+    }, children), header && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_header"
+    }, header), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_main " + Object(_utils__WEBPACK_IMPORTED_MODULE_20__["getMainLayoutClassName"])(layout)
+    }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_progress-section"
+    }, this.renderUIModules(customProgressBarSection)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_controls-section"
+    }, this.renderUIModules(customControlsSection))), footer && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+      className: "rhap_footer"
+    }, footer));
+  };
+
+  return H5AudioPlayer;
+}(react__WEBPACK_IMPORTED_MODULE_3__["Component"]);
+
+_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(H5AudioPlayer, "defaultProps", {
+  autoPlay: false,
+  autoPlayAfterSrcChange: true,
+  listenInterval: 1000,
+  progressJumpStep: 5000,
+  progressJumpSteps: {},
+  volumeJumpStep: 0.1,
+  loop: false,
+  muted: false,
+  preload: 'auto',
+  progressUpdateInterval: 20,
+  defaultCurrentTime: '--:--',
+  defaultDuration: '--:--',
+  timeFormat: 'auto',
+  volume: 1,
+  className: '',
+  showJumpControls: true,
+  showSkipControls: false,
+  showDownloadProgress: true,
+  showFilledProgress: true,
+  customIcons: {},
+  customProgressBarSection: [_constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].CURRENT_TIME, _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].PROGRESS_BAR, _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].DURATION],
+  customControlsSection: [_constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].ADDITIONAL_CONTROLS, _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].MAIN_CONTROLS, _constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].VOLUME_CONTROLS],
+  customAdditionalControls: [_constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].LOOP],
+  customVolumeControls: [_constants__WEBPACK_IMPORTED_MODULE_19__["RHAP_UI"].VOLUME],
+  layout: 'stacked'
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (H5AudioPlayer);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/es/utils.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/es/utils.js ***!
+  \********************************************************/
+/*! exports provided: getMainLayoutClassName, getPosX, getDisplayTimeBySeconds, throttle */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getMainLayoutClassName", function() { return getMainLayoutClassName; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getPosX", function() { return getPosX; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDisplayTimeBySeconds", function() { return getDisplayTimeBySeconds; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return throttle; });
+var getMainLayoutClassName = function getMainLayoutClassName(layout) {
+  switch (layout) {
+    case 'stacked':
+      return 'rhap_stacked';
+
+    case 'stacked-reverse':
+      return 'rhap_stacked-reverse';
+
+    case 'horizontal':
+      return 'rhap_horizontal';
+
+    case 'horizontal-reverse':
+      return 'rhap_horizontal-reverse';
+
+    default:
+      return 'rhap_stacked';
+  }
+};
+var getPosX = function getPosX(event) {
+  if (event instanceof MouseEvent) {
+    return event.pageX || event.clientX;
+  } else {
+    return event.touches[0].pageX || event.touches[0].clientX;
+  }
+};
+
+var addHeadingZero = function addHeadingZero(num) {
+  return num > 9 ? num.toString() : "0" + num;
+};
+
+var getDisplayTimeBySeconds = function getDisplayTimeBySeconds(seconds, totalSeconds, timeFormat) {
+  if (!isFinite(seconds)) {
+    return null;
+  }
+
+  var min = Math.floor(seconds / 60);
+  var minStr = addHeadingZero(min);
+  var secStr = addHeadingZero(Math.floor(seconds % 60));
+  var minStrForHour = addHeadingZero(Math.floor(min % 60));
+  var hourStr = Math.floor(min / 60);
+  var mmSs = minStr + ":" + secStr;
+  var hhMmSs = hourStr + ":" + minStrForHour + ":" + secStr;
+
+  if (timeFormat === 'auto') {
+    if (totalSeconds >= 3600) {
+      return hhMmSs;
+    } else {
+      return mmSs;
+    }
+  } else if (timeFormat === 'mm:ss') {
+    return mmSs;
+  } else if (timeFormat === 'hh:mm:ss') {
+    return hhMmSs;
+  }
+};
+function throttle(func, limit) {
+  var inThrottle = false;
+  return function (arg) {
+    if (!inThrottle) {
+      func(arg);
+      inThrottle = true;
+      setTimeout(function () {
+        return inThrottle = false;
+      }, limit);
+    }
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-h5-audio-player/lib/styles.less":
+/*!************************************************************!*\
+  !*** ./node_modules/react-h5-audio-player/lib/styles.less ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../css-loader/dist/cjs.js!../../less-loader/dist/cjs.js??ref--6-2!./styles.less */ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./node_modules/react-h5-audio-player/lib/styles.less");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./node_modules/react-is/cjs/react-is.development.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
@@ -31995,6 +34521,286 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
 /***/ "./node_modules/symbol-observable/es/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/symbol-observable/es/index.js ***!
@@ -32133,8 +34939,6 @@ module.exports = function(originalModule) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _assets_siren_head_0_mp3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/siren-head_0.mp3 */ "./assets/siren-head_0.mp3");
-
 var scp = [[{
   id: 0,
   name: 'Сиреноголовый',
@@ -32144,7 +34948,7 @@ var scp = [[{
   behavior: 'Сиреноголовый является крайне агрессивным хищником, которого можно встретить в лесу, маленьких деревнях, на полях и т.д. Наиболее распространенная охотничья тактика, используемая Сиреноголовым - это заманивание своих жертв криками о помощи, которые звучат по-человечески. ' + 'Когда жертва приближается на достаточное расстояние он хватает её и, предположительно, разрывает на части и съедает.',
   hazard: 'Высокий',
   image: 'https://res.cloudinary.com/dv4fxot90/image/upload/v1597220238/scp_images/siren-head_pdpl9b.jpg',
-  sound: _assets_siren_head_0_mp3__WEBPACK_IMPORTED_MODULE_0__["default"]
+  sound: 'https://res.cloudinary.com/dv4fxot90/video/upload/v1597166991/scp_sounds/siren-head_zsvhed.mp3'
 }, {
   id: 1,
   name: 'Йо-йо',
@@ -32636,7 +35440,7 @@ var setEndGame = function setEndGame(value) {
 
 var chooseHidden = function chooseHidden() {
   return function (dispatch) {
-    var random = Math.floor(Math.random() * 5) + 1;
+    var random = Math.floor(Math.random() * 6);
     dispatch(setWhoHidden(random));
   };
 };
@@ -32742,16 +35546,16 @@ var Answer = function Answer(_ref) {
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
-      shownName = _useState2[0],
-      setShownName = _useState2[1];
+      shownId = _useState2[0],
+      setShownId = _useState2[1];
 
   var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
       _useState4 = _slicedToArray(_useState3, 2),
       buttonDisabled = _useState4[0],
       setButtonDisabled = _useState4[1];
 
-  var onItemClick = function onItemClick(name) {
-    setShownName(name);
+  var onItemClick = function onItemClick(id) {
+    setShownId(id);
   };
 
   var makeButtonActive = function makeButtonActive() {
@@ -32779,7 +35583,9 @@ var Answer = function Answer(_ref) {
     });
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Answer ", who, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, itemsList), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Description_Description__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    shownName: shownName
+    shownId: shownId,
+    scpList: scpList,
+    level: level
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     isDisabled: buttonDisabled,
     setNextLevel: setNextLevel,
@@ -33046,8 +35852,24 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Description = function Description(_ref) {
-  var shownName = _ref.shownName;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Description: ", shownName);
+  var shownId = _ref.shownId,
+      scpList = _ref.scpList,
+      level = _ref.level;
+  var shownItem = scpList[level][shownId];
+
+  if (shownId === null) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u041F\u043E\u0441\u043B\u0443\u0448\u0430\u0439\u0442\u0435 \u0437\u0432\u0443\u043A \u0438 \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E");
+  }
+
+  if (shownId >= 0) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: shownItem.image,
+      alt: shownItem.name
+    }), shownItem.name, shownItem.type, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("audio", {
+      src: shownItem.sound,
+      controls: true
+    }), shownItem.hazard);
+  }
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Description);
@@ -33119,28 +35941,46 @@ var HeaderContainer = Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"]
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_h5_audio_player__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-h5-audio-player */ "./node_modules/react-h5-audio-player/es/index.js");
+/* harmony import */ var react_h5_audio_player_lib_styles_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-h5-audio-player/lib/styles.less */ "./node_modules/react-h5-audio-player/lib/styles.less");
+/* harmony import */ var react_h5_audio_player_lib_styles_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_h5_audio_player_lib_styles_less__WEBPACK_IMPORTED_MODULE_2__);
+
+
 
 
 var Question = function Question(_ref) {
   var who = _ref.who,
       level = _ref.level,
       chooseHidden = _ref.chooseHidden,
-      scpList = _ref.scpList;
+      scpList = _ref.scpList,
+      endRound = _ref.endRound;
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     chooseHidden();
   }, [level]);
   var hiddenItem = scpList[level][who];
+  console.log(who);
 
-  if (!who) {
+  if (who === null && !endRound) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Loading");
   }
 
-  if (who) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "[\u0414\u0430\u043D\u043D\u044B\u0435 \u0443\u0434\u0430\u043B\u0435\u043D\u044B]", hiddenItem.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("audio", {
-      src: hiddenItem.sound
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  if (who >= 0 && !endRound) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "[\u0414\u0430\u043D\u043D\u044B\u0435 \u0443\u0434\u0430\u043B\u0435\u043D\u044B]", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_h5_audio_player__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      autoPlay: false,
+      src: hiddenItem.sound,
+      onPlay: function onPlay(e) {
+        return console.log('onPlay');
+      }
+    }));
+  }
+
+  if (endRound) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: hiddenItem.image,
       alt: hiddenItem.name
+    }), hiddenItem.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("audio", {
+      src: hiddenItem.sound,
+      controls: true
     }));
   }
 };
@@ -33172,7 +36012,8 @@ var mapStateToProps = function mapStateToProps(state) {
   return {
     who: state.scp.who,
     level: state.scp.level,
-    scpList: state.scp.scpList
+    scpList: state.scp.scpList,
+    endRound: state.scp.endRound
   };
 };
 

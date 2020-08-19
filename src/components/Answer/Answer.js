@@ -61,6 +61,7 @@ const Answer = ({
                 shownId={shownId}
                 scpList={scpList}
                 level={level}
+                endRound={endRound}
             />
             <Button
                 isDisabled={buttonDisabled}

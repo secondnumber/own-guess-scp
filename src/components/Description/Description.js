@@ -1,6 +1,9 @@
 import React from 'react';
+import Player from '../Player/Player';
+import CorrectSound from '../../assets/correctSound.mp3';
+import WrongSound from '../../assets/wrongSound.mp3';
 
-const Description = ({shownId, scpList, level}) => {
+const Description = ({shownId, scpList, level, endRound}) => {
     const shownItem = scpList[level][shownId];
 
     if (shownId === null) {
@@ -17,8 +20,9 @@ const Description = ({shownId, scpList, level}) => {
                 <img src={shownItem.image} alt={shownItem.name}/>
                 {shownItem.name}
                 {shownItem.type}
-                <audio src={shownItem.sound} controls></audio>
+                <Player playingItem={shownItem} autoPlay={false}/>
                 {shownItem.hazard}
+                {!endRound ? <audio src={WrongSound} autoPlay /> : <audio src={CorrectSound} autoPlay />}
             </div>
         );
     }

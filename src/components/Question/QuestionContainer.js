@@ -6,7 +6,8 @@ import {chooseHidden} from '../../../redux/scpReducer';
 const mapStateToProps = (state) => ({
     who: state.scp.who,
     level: state.scp.level,
-    scpList: state.scp.scpList
+    scpList: state.scp.scpList,
+    endRound: state.scp.endRound
 });
 
 const QuestionContainer = connect(mapStateToProps, {chooseHidden})(Question);

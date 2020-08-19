@@ -57,8 +57,23 @@ module.exports = (env = {}) => {
                     use: getStyleLoaders(),
                 },
                 {
-                    test: /\.s[ac]ss$/i,
-                    use: [...getStyleLoaders(), 'sass-loader'],
+                    test: /\.less$/,
+                    use: [
+                        {
+                            loader: 'style-loader',
+                        },
+                        {
+                            loader: 'css-loader',
+                        },
+                        {
+                            loader: 'less-loader',
+                            options: {
+                                lessOptions: {
+                                    strictMath: true,
+                                },
+                            },
+                        },
+                    ],
                 },
                 {
                     test: /\.(jpg|jpeg|png|gif|ico)$/,

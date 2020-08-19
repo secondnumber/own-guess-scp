@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
+import 'react-h5-audio-player/lib/styles.less';
+import Player from '../Player/Player';
 
-const Question = ({who, level, chooseHidden, scpList}) => {
+const Question = ({who, level, chooseHidden, scpList, endRound}) => {
 
     useEffect(() => {
         chooseHidden();
@@ -9,20 +11,28 @@ const Question = ({who, level, chooseHidden, scpList}) => {
     const hiddenItem = scpList[level][who];
     console.log(who);
 
-    if (who === null) {
+    if (who === null && !endRound) {
         return (
             <div>
               Loading
             </div>
         );
     }
-    if (who >= 0) {
+    if (who >= 0 && !endRound) {
+        return (
+            <div>
+                [Данные удалены]
+                <Player playingItem={hiddenItem} autoPlay={false}/>
+            </div>
+        );
+    }
+
+    if (endRound) {
         return (
             <div>
                 <img src={hiddenItem.image} alt={hiddenItem.name}/>
-                [Данные удалены]
                 {hiddenItem.name}
-                <audio src={hiddenItem.sound} controls />
+                <Player playingItem={hiddenItem} autoPlay={false}/>
             </div>
         );
     }
