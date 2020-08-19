@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.44.1",
-  "hash": "383e22cf057f790274ec",
-  "time": 976,
-  "builtAt": 1597820367914,
+  "hash": "b4906e0eba7a09971b9e",
+  "time": 935,
+  "builtAt": 1597823615942,
   "publicPath": "",
   "outputPath": "/Users/yulyavorontsova/songbird/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "main.js",
-      "size": 1519830,
+      "size": 1520895,
       "chunks": [
         "main"
       ],
@@ -31,7 +31,7 @@
     },
     {
       "name": "main.js.map",
-      "size": 1722767,
+      "size": 1724101,
       "chunks": [
         "main"
       ],
@@ -81,7 +81,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1447519,
+      "size": 1448379,
       "names": [
         "main"
       ],
@@ -89,7 +89,7 @@
         "main.js",
         "main.js.map"
       ],
-      "hash": "4c7643e9a1a0e8eba8cf",
+      "hash": "28a27b8906fb34b0e949",
       "siblings": [
       ],
       "parents": [
@@ -4360,7 +4360,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "73:19-24"
+              "loc": "75:19-24"
             },
             {
               "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -4513,7 +4513,34 @@
               "moduleName": "./src/components/Description/Description.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "5:22-27"
+              "loc": "10:24-29"
+            },
+            {
+              "moduleId": "./src/components/Description/Description.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+              "module": "./src/components/Description/Description.js",
+              "moduleName": "./src/components/Description/Description.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "14:24-29"
+            },
+            {
+              "moduleId": "./src/components/Description/Description.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+              "module": "./src/components/Description/Description.js",
+              "moduleName": "./src/components/Description/Description.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "14:70-75"
+            },
+            {
+              "moduleId": "./src/components/Description/Description.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+              "module": "./src/components/Description/Description.js",
+              "moduleName": "./src/components/Description/Description.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "17:53-58"
             },
             {
               "moduleId": "./src/components/Header/Header.js",
@@ -4549,7 +4576,7 @@
               "moduleName": "./src/components/Question/Question.js",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-51"
+              "loc": "1:0-41"
             },
             {
               "moduleId": "./src/components/Question/Question.js",
@@ -4577,6 +4604,24 @@
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "19:24-29"
+            },
+            {
+              "moduleId": "./src/components/Question/Question.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Question/Question.js",
+              "module": "./src/components/Question/Question.js",
+              "moduleName": "./src/components/Question/Question.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "19:70-75"
+            },
+            {
+              "moduleId": "./src/components/Question/Question.js",
+              "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Question/Question.js",
+              "module": "./src/components/Question/Question.js",
+              "moduleName": "./src/components/Question/Question.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "22:123-128"
             },
             {
               "moduleId": "./src/components/Question/QuestionContainer.js",
@@ -6351,7 +6396,7 @@
           "index2": 77,
           "size": 22089,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -6415,7 +6460,7 @@
           "name": "./redux/scpReducer.js",
           "index": 80,
           "index2": 78,
-          "size": 4333,
+          "size": 4329,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -6619,7 +6664,7 @@
           "name": "./src/components/Answer/Answer.js",
           "index": 89,
           "index2": 87,
-          "size": 3724,
+          "size": 3750,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -7009,7 +7054,7 @@
               "moduleName": "./src/components/Answer/Answer.js",
               "type": "harmony import specifier",
               "userRequest": "../Button/Button",
-              "loc": "73:39-45"
+              "loc": "75:39-45"
             }
           ],
           "providedExports": [
@@ -7025,9 +7070,9 @@
           "name": "./src/components/Description/Description.js",
           "index": 91,
           "index2": 85,
-          "size": 224,
+          "size": 858,
           "cacheable": true,
-          "built": false,
+          "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -7238,7 +7283,7 @@
           "name": "./src/components/Question/Question.js",
           "index": 87,
           "index2": 82,
-          "size": 634,
+          "size": 838,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -11695,7 +11740,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "73:19-24"
+          "loc": "75:19-24"
         },
         {
           "moduleId": "./src/components/Answer/AnswerContainer.js",
@@ -11848,7 +11893,34 @@
           "moduleName": "./src/components/Description/Description.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "5:22-27"
+          "loc": "10:24-29"
+        },
+        {
+          "moduleId": "./src/components/Description/Description.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+          "module": "./src/components/Description/Description.js",
+          "moduleName": "./src/components/Description/Description.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "14:24-29"
+        },
+        {
+          "moduleId": "./src/components/Description/Description.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+          "module": "./src/components/Description/Description.js",
+          "moduleName": "./src/components/Description/Description.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "14:70-75"
+        },
+        {
+          "moduleId": "./src/components/Description/Description.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Description/Description.js",
+          "module": "./src/components/Description/Description.js",
+          "moduleName": "./src/components/Description/Description.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "17:53-58"
         },
         {
           "moduleId": "./src/components/Header/Header.js",
@@ -11884,7 +11956,7 @@
           "moduleName": "./src/components/Question/Question.js",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-51"
+          "loc": "1:0-41"
         },
         {
           "moduleId": "./src/components/Question/Question.js",
@@ -11912,6 +11984,24 @@
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "19:24-29"
+        },
+        {
+          "moduleId": "./src/components/Question/Question.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Question/Question.js",
+          "module": "./src/components/Question/Question.js",
+          "moduleName": "./src/components/Question/Question.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "19:70-75"
+        },
+        {
+          "moduleId": "./src/components/Question/Question.js",
+          "moduleIdentifier": "/Users/yulyavorontsova/songbird/node_modules/babel-loader/lib/index.js??ref--4!/Users/yulyavorontsova/songbird/src/components/Question/Question.js",
+          "module": "./src/components/Question/Question.js",
+          "moduleName": "./src/components/Question/Question.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "22:123-128"
         },
         {
           "moduleId": "./src/components/Question/QuestionContainer.js",
@@ -13686,7 +13776,7 @@
       "index2": 77,
       "size": 22089,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -13750,7 +13840,7 @@
       "name": "./redux/scpReducer.js",
       "index": 80,
       "index2": 78,
-      "size": 4333,
+      "size": 4329,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -13954,7 +14044,7 @@
       "name": "./src/components/Answer/Answer.js",
       "index": 89,
       "index2": 87,
-      "size": 3724,
+      "size": 3750,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -14344,7 +14434,7 @@
           "moduleName": "./src/components/Answer/Answer.js",
           "type": "harmony import specifier",
           "userRequest": "../Button/Button",
-          "loc": "73:39-45"
+          "loc": "75:39-45"
         }
       ],
       "providedExports": [
@@ -14360,9 +14450,9 @@
       "name": "./src/components/Description/Description.js",
       "index": 91,
       "index2": 85,
-      "size": 224,
+      "size": 858,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -14573,7 +14663,7 @@
       "name": "./src/components/Question/Question.js",
       "index": 87,
       "index2": 82,
-      "size": 634,
+      "size": 838,
       "cacheable": true,
       "built": false,
       "optional": false,

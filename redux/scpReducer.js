@@ -92,7 +92,7 @@ const setEndGame = (value) => ({
 });
 
 export const chooseHidden = () => (dispatch) => {
-    const random = Math.floor(Math.random() * 5) + 1;
+    const random = Math.floor(Math.random() * 6);
     dispatch(setWhoHidden(random));
 };
 

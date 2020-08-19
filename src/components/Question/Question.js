@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect} from 'react';
 
 const Question = ({who, level, chooseHidden, scpList}) => {
 
@@ -7,20 +7,22 @@ const Question = ({who, level, chooseHidden, scpList}) => {
     }, [level]);
 
     const hiddenItem = scpList[level][who];
-    console.log(hiddenItem);
+    console.log(who);
 
-    if (!who) {
+    if (who === null) {
         return (
             <div>
               Loading
             </div>
         );
     }
-    if (who) {
+    if (who >= 0) {
         return (
             <div>
+                <img src={hiddenItem.image} alt={hiddenItem.name}/>
                 [Данные удалены]
                 {hiddenItem.name}
+                <audio src={hiddenItem.sound} controls />
             </div>
         );
     }

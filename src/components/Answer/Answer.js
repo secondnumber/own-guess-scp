@@ -18,11 +18,11 @@ const Answer = ({
     endGame,
     makeGameEnd
 }) => {
-    const [shownName, setShownName] = useState(null);
+    const [shownId, setShownId] = useState(null);
     const [buttonDisabled, setButtonDisabled] = useState(null);
 
-    const onItemClick = (name) => {
-        setShownName(name);
+    const onItemClick = (id) => {
+        setShownId(id);
     };
 
     const makeButtonActive = () => {
@@ -57,7 +57,11 @@ const Answer = ({
             <ul>
                 {itemsList}
             </ul>
-            <Description shownName={shownName}/>
+            <Description
+                shownId={shownId}
+                scpList={scpList}
+                level={level}
+            />
             <Button
                 isDisabled={buttonDisabled}
                 setNextLevel={setNextLevel}
