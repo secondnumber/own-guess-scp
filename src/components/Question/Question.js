@@ -1,19 +1,30 @@
 import React, {useState, useEffect} from 'react';
-import {chooseHidden} from '../../../redux/scpReducer';
 
-const Question = ({who, level, chooseHidden}) => {
-    const [hidden, setHidden] = useState(null);
+const Question = ({who, level, chooseHidden, scpList}) => {
 
     useEffect(() => {
         chooseHidden();
-        setHidden(who);
     }, [level]);
-    
-    return (
-        <div>
-        Question: {who}
-        </div>
-    );
+
+    const hiddenItem = scpList[level][who];
+    console.log(hiddenItem);
+
+    if (!who) {
+        return (
+            <div>
+              Loading
+            </div>
+        );
+    }
+    if (who) {
+        return (
+            <div>
+                [Данные удалены]
+                {hiddenItem.name}
+            </div>
+        );
+    }
+
 };
 
 export default Question;

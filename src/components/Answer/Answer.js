@@ -3,7 +3,21 @@ import Item from './Item/Item';
 import Description from '../Description/Description';
 import Button from '../Button/Button';
 
-const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, totalScore, countAttemptScore, countTotalScore, isRoundEnd, endRound}) => {
+const Answer = ({
+    who,
+    scpList,
+    level,
+    setNextLevel,
+    chooseHidden,
+    attemptScore,
+    totalScore,
+    countAttemptScore,
+    countTotalScore,
+    isRoundEnd,
+    endRound,
+    endGame,
+    makeGameEnd
+}) => {
     const [shownName, setShownName] = useState(null);
     const [buttonDisabled, setButtonDisabled] = useState(null);
 
@@ -50,6 +64,8 @@ const Answer = ({who, scpList, level, setNextLevel, chooseHidden, attemptScore, 
                 level={level}
                 chooseHidden={chooseHidden}
                 isRoundEnd={isRoundEnd}
+                endGame={endGame}
+                makeGameEnd={makeGameEnd}
             />
         </div>
     );
