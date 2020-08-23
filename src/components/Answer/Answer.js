@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import Item from './Item/Item';
+import ListComponent from './Item/ListComponent';
 import Description from '../Description/Description';
-import Button from '../Button/Button';
+import ButtonComponent from '../Button/ButtonComponent';
+import classes from './Answer.module.less'
 
 const Answer = ({
     who,
@@ -33,37 +34,30 @@ const Answer = ({
         setButtonDisabled(true);
     }, [level]);
 
-    const itemsList = scpList[level].map((el) => (
-        <Item
-            key={el.id}
-            id={el.id}
-            name={el.name}
-            level={level}
-            attemptScore={attemptScore}
-            totalScore={totalScore}
-            countAttemptScore={countAttemptScore}
-            countTotalScore={countTotalScore}
-            who={who}
-            onItemClick={onItemClick}
-            makeButtonActive={makeButtonActive}
-            endRound={endRound}
-            isRoundEnd={isRoundEnd}
-        />
-    ));
-
     return (
-        <div>
-        Answer {who}
-            <ul>
-                {itemsList}
-            </ul>
-            <Description
-                shownId={shownId}
-                scpList={scpList}
-                level={level}
-                endRound={endRound}
-            />
-            <Button
+        <div className={classes.wrapper}>
+            <div className={classes.contentBlock}>
+                <ListComponent
+                    scpList={scpList}
+                    level={level}
+                    attemptScore={attemptScore}
+                    totalScore={totalScore}
+                    countAttemptScore={countAttemptScore}
+                    countTotalScore={countTotalScore}
+                    who={who}
+                    onItemClick={onItemClick}
+                    makeButtonActive={makeButtonActive}
+                    endRound={endRound}
+                    isRoundEnd={isRoundEnd}
+                />
+                <Description
+                    shownId={shownId}
+                    scpList={scpList}
+                    level={level}
+                    endRound={endRound}
+                />
+            </div>
+            <ButtonComponent
                 isDisabled={buttonDisabled}
                 setNextLevel={setNextLevel}
                 level={level}

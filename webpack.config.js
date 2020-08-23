@@ -21,6 +21,7 @@ module.exports = (env = {}) => {
                 title: 'SongSCP',
                 buildTime: new Date().toISOString(),
                 template: 'public/index.html',
+                favicon: './src/favicon.ico',
             }),
             new BundleAnalyzerPlugin({
                 analyzerMode: 'disabled',
