@@ -9,7 +9,7 @@ const SET_END_GAME= 'scp/SET_END_GAME';
 
 const initialState = {
     scpList: scp,
-    levelList: ['lvl-0', 'lvl-1', 'lvl-2', 'lvl-3', 'lvl-4', 'lvl-5',],
+    levelList: ['Не-SCP', 'Безопасные', 'Евклид', 'Кетер', 'Таумиэль', 'Нестандартные',],
     level: 0,
     who: null,
     endRound: false,
