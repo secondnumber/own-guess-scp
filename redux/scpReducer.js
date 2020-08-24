@@ -97,6 +97,7 @@ export const chooseHidden = () => (dispatch) => {
 };
 
 export const setNextLevel = (level) => (dispatch) => {
+    debugger
     const value = level + 1;
     dispatch(setLevel(value));
 };

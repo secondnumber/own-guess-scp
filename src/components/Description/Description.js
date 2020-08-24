@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Skeleton, Avatar, List} from 'antd';
-import Player from '../Player/Player';
-import CorrectSound from '../../assets/correctSound.mp3';
-import WrongSound from '../../assets/wrongSound.mp3';
+
 import classes from '../Question/Question.module.less';
+import Player from '../Player/Player';
 
 const { Meta } = Card;
 
@@ -23,7 +22,7 @@ const Description = ({shownId, scpList, level, endRound}) => {
             <Card style={{ flexBasis: '50%', marginLeft: 15 }}>
                 <Skeleton loading={false} avatar active>
                     <Meta
-                        avatar={<Avatar className={classes.itemImage} src={shownItem.image} />}
+                        avatar={<Avatar shape="square" className={classes.itemImage} src={shownItem.image} />}
                         title={shownItem.name}
                         description={<List>
                             <List.Item>Тип: {shownItem.type}</List.Item>
@@ -31,8 +30,9 @@ const Description = ({shownId, scpList, level, endRound}) => {
                             <List.Item>Описание: {shownItem.description}</List.Item>
                         </List>}
                     />
-                    <Player playingItem={shownItem} autoPlay={false}/>
-                    {!endRound ? <audio src={WrongSound} autoPlay /> : <audio src={CorrectSound} autoPlay />}
+                    <Player
+                        playingItem={shownItem}
+                    />
                 </Skeleton>
             </Card>
         );

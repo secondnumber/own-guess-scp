@@ -1,6 +1,6 @@
 @rhap_theme-color: #8cf8d0;
 @rhap_background-color: #fff;
-@rhap_bar-color: #8cf8d0;
+@rhap_bar-color: #303030;
 @rhap_progress-color: #ff0000;
 @rhap_time-color: #8cf8d0;
 @rhap_font-family: inherit;
@@ -15,13 +15,15 @@
   padding: 10px 15px;
   background-color: transparent;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
 
   &:focus:not(:focus-visible) {
-    outline: 0;
+    outline: none;
   }
 
   svg {
     vertical-align: initial; // overwrite Bootstrap default
+    outline: none;
   }
 }
 
@@ -84,14 +86,16 @@
   margin: 0 calc(~"10px + 1%");
   cursor: pointer;
   -webkit-user-select: none;
+  outline: none;
 
   &:focus:not(:focus-visible) {
-    outline: 0;
+    outline: none;
   }
 }
 
 .rhap_time {
-  color: @rhap_time-color;
+  top: 20px;
+  color: @rhap_theme-color;
   font-size: 16px;
   user-select: none;
   -webkit-user-select: none;
@@ -111,7 +115,7 @@
   height: 100%;
   position: absolute;
   z-index: 2;
-  background-color: @rhap_progress-color;
+  background: linear-gradient(90deg, @rhap_theme-color, @rhap_progress-color);
   border-radius: 2px;
 }
 
@@ -137,7 +141,6 @@
   top: -8px;
   background: @rhap_progress-color;
   border-radius: 50px;
-  box-shadow: fade(@rhap_theme-color, (.5*100)) 0 0 5px;
 }
 
 .rhap_controls-section {
@@ -166,6 +169,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
 }
 
 .rhap_main-controls-button {
@@ -174,12 +178,14 @@
   font-size: 35px;
   width: 35px;
   height: 35px;
+  outline: none;
 }
 
 .rhap_play-pause-button {
   font-size: 40px;
   width: 40px;
   height: 40px;
+  outline: none;
 
 }
 
@@ -188,6 +194,7 @@
   flex: 1 0 auto;
   justify-content: flex-end;
   align-items: center;
+  outline: none;
 }
 
 .rhap_volume-button {
@@ -197,6 +204,7 @@
   height: 26px;
   color: @rhap_theme-color;
   margin-right: 6px;
+  outline: none;
 }
 
 .rhap_volume-container {
@@ -204,6 +212,7 @@
   align-items: center;
   flex: 0 1 100px;
   -webkit-user-select: none;
+  outline: none;
 }
 
 .rhap_volume-bar-area {
@@ -212,9 +221,10 @@
   width: 100%;
   height: 14px;
   cursor: pointer;
+  outline: none;
 
   &:focus:not(:focus-visible) {
-    outline: 0;
+    outline: none;
   }
 }
 
@@ -223,8 +233,9 @@
   position: relative;
   width: 100%;
   height: 4px;
-  background: @rhap_bar-color;
+  background: @rhap_theme-color;
   border-radius: 2px;
+  outline: none;
 }
 
 .rhap_volume-indicator {
@@ -240,6 +251,7 @@
   border-radius: 50px;
   box-shadow: fade(@rhap_theme-color, (.5*100)) 0 0 3px;
   cursor: pointer;
+  outline: none;
 
   &:hover {
     opacity: .9;

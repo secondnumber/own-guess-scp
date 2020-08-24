@@ -3,7 +3,7 @@ import { Button } from 'antd';
 
 const ButtonComponent = ({isDisabled, setNextLevel, level, isRoundEnd, makeGameEnd}) => {
 
-    const goOverNextLevel = () => {
+    const goOverNextLevel = (level) => {
         setNextLevel(level);
         isRoundEnd(false);
     }
@@ -14,7 +14,7 @@ const ButtonComponent = ({isDisabled, setNextLevel, level, isRoundEnd, makeGameE
 
     if (level < 5) {
         return (
-            <Button danger type="primary" block disabled={isDisabled} onClick={goOverNextLevel}>
+            <Button danger type="primary" block disabled={isDisabled} onClick={() => {goOverNextLevel(level)}}>
                 Next Level
             </Button>
         );
@@ -22,7 +22,7 @@ const ButtonComponent = ({isDisabled, setNextLevel, level, isRoundEnd, makeGameE
 
     if (level === 5) {
         return (
-            <Button danger type="primary" block disabled={isDisabled} onClick={finishGame}>
+            <Button danger type="primary" block disabled={isDisabled} onClick={() => {finishGame()}}>
               Finish game
             </Button>
         );

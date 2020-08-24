@@ -48,7 +48,7 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
                 <Skeleton loading={false} avatar active>
                     <Meta
                         avatar={
-                            <Avatar className={classes.itemImage} src={hiddenItem.image} />
+                            <Avatar shape="square" className={classes.itemImage} src={hiddenItem.image} />
                         }
                         title={hiddenItem.name}
                         description={<Player playingItem={hiddenItem} autoPlay={false}/>}

@@ -71,13 +71,17 @@ module.exports = (env = {}) => {
                             options: {
                                 lessOptions: {
                                     strictMath: true,
+                                    modifyVars: {
+                                        'error-color': '#FF0000',
+                                        'border-radius-base': '2px',
+                                    },
                                 },
                             },
                         },
                     ],
                 },
                 {
-                    test: /\.(jpg|jpeg|png|gif|ico)$/,
+                    test: /\.(jpg|jpeg|png|gif|ico|svg)$/,
                     use: [
                         {
                             loader: 'file-loader',
@@ -116,7 +120,7 @@ module.exports = (env = {}) => {
                     test: /\.mp3$/,
                     include: SRC,
                     loader: 'file-loader'
-                }
+                },
             ],
         },
 

@@ -8,7 +8,11 @@ const { Header } = Layout;
 const HeaderComponent = ({level, levelList, attemptScore, totalScore}) => {
     const headerList = levelList.map((el, index) => {
         return (
-            <Menu.Item style={level === index ? { backgroundColor: '#545454' } : ''} key={`${index}${el}`}>{el}</Menu.Item>
+            <Menu.Item
+                style={level === index
+                    ? { backgroundColor: '#545454', color: '#FFFFFF', cursor: 'none' }
+                    : { backgroundColor: '#1f1f1f', color: '#E3E3E3', cursor: 'none' } }
+                key={`${index}${el}`}>{el}</Menu.Item>
         )
     });
 
@@ -19,7 +23,7 @@ const HeaderComponent = ({level, levelList, attemptScore, totalScore}) => {
                     <img className={classes.logoImage} src={Logo} alt="Logo"/>
                     <h1>Guess<span className={classes.logoTextHighlight}>SCP</span></h1>
                 </div>
-                <div>
+                <div className={classes.scoreBlock}>
                     <h3>Attempt score: {attemptScore} Total score: {totalScore}</h3>
                 </div>
             </div>
