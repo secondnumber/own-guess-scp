@@ -8,12 +8,15 @@ import classes from './Question.module.less';
 const { Meta } = Card;
 
 const Question = ({who, level, chooseHidden, scpList, endRound}) => {
+    const hiddenItem = scpList[level][who];
+
+    if (hiddenItem) {
+        console.log(`Верный ответ: ${hiddenItem.name}`);
+    }
 
     useEffect(() => {
         chooseHidden();
     }, [level]);
-
-    const hiddenItem = scpList[level][who];
 
     if (who === null && !endRound) {
         return (
@@ -24,13 +27,11 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
     }
     if (who >= 0 && !endRound) {
         return (
-            <Card
-                style={{ width: '70vw', margin: '25px auto'}}
-            >
+            <Card className={classes.wrapper}>
                 <Skeleton loading={false} avatar active>
                     <Meta
                         avatar={
-                            <Avatar className={classes.itemImage} src={CoverImage} />
+                            <Avatar shape="square" className={classes.itemImage} src={CoverImage} />
                         }
                         title="[ДАННЫЕ УДАЛЕНЫ]"
                         description={<Player playingItem={hiddenItem} autoPlay={false}/>}
@@ -42,9 +43,7 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
 
     if (endRound) {
         return (
-            <Card
-                style={{ width: '70vw', margin: '25px auto'}}
-            >
+            <Card className={classes.wrapper}>
                 <Skeleton loading={false} avatar active>
                     <Meta
                         avatar={

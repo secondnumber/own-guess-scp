@@ -9,7 +9,7 @@ const SET_END_GAME= 'scp/SET_END_GAME';
 
 const initialState = {
     scpList: scp,
-    levelList: ['Не-SCP', 'Безопасные', 'Евклид', 'Кетер', 'Таумиэль', 'Нестандартные',],
+    levelList: ['Нейтрализован/не назначен', 'Безопасные', 'Евклид', 'Кетер', 'Таумиэль', 'Нестандартные',],
     level: 0,
     who: null,
     endRound: false,
@@ -97,7 +97,6 @@ export const chooseHidden = () => (dispatch) => {
 };
 
 export const setNextLevel = (level) => (dispatch) => {
-    debugger
     const value = level + 1;
     dispatch(setLevel(value));
 };

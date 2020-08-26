@@ -1,27 +1,33 @@
 @import '../Colors';
 
 .wrapper {
-  max-width: 70vw;
+  max-width: 75vw;
   margin: 15px auto;
-}
-
-.contentBlock {
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-}
-
-ul {
-  padding-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  grid-template-rows: 1fr 30px 30px;
+  grid-template-areas:
+    "answers . description"
+    ". . ."
+    "button button button";
 }
 
 .list {
-  margin-right: 15px;
-  flex-basis: 50%;
+  grid-area: answers;
   background: @grayMiddle;
   border: 1px solid @grayLight;
   list-style-type: none;
+}
+
+@media (max-width: 991px)  {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30px 1fr 30px 30px;
+    grid-template-areas:
+            "answers"
+            "."
+            "description"
+            "."
+            "button";
+  }
 }

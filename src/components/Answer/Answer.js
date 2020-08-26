@@ -19,15 +19,8 @@ const Answer = ({
     endGame,
     makeGameEnd
 }) => {
-    const data = [
-        'Racing car sprays burning fuel into crowd.',
-        'Japanese princess to wed commoner.',
-        'Australian walks 100km after outback crash.',
-        'Man charged over missing wedding girl.',
-        'Los Angeles battles huge wildfires.',
-    ];
     const [shownId, setShownId] = useState(null);
-    const [buttonDisabled, setButtonDisabled] = useState(null);
+    const [buttonDisabled, setButtonDisabled] = useState(true);
 
     const onItemClick = (id) => {
         setShownId(id);
@@ -38,6 +31,7 @@ const Answer = ({
     };
 
     useEffect(() => {
+        setShownId(null); 
         setButtonDisabled(true);
     }, [level]);
 
@@ -59,25 +53,23 @@ const Answer = ({
                 isRoundEnd={isRoundEnd}
             />
         )
-    } )
+    });
+    
     return (
         <div className={classes.wrapper}>
-            <div className={classes.contentBlock}>
-                <ul className={classes.list}>
-                    {itemsList}
-                </ul>
-                <Description
-                    shownId={shownId}
-                    scpList={scpList}
-                    level={level}
-                    endRound={endRound}
-                />
-            </div>
+            <ul className={classes.list}>
+                {itemsList}
+            </ul>
+            <Description
+                shownId={shownId}
+                scpList={scpList}
+                level={level}
+                endRound={endRound}
+            />
             <ButtonComponent
                 isDisabled={buttonDisabled}
                 setNextLevel={setNextLevel}
                 level={level}
-                chooseHidden={chooseHidden}
                 isRoundEnd={isRoundEnd}
                 endGame={endGame}
                 makeGameEnd={makeGameEnd}

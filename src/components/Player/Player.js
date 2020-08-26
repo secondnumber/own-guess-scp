@@ -1,12 +1,13 @@
-import React, { createRef, useRef } from 'react';
+import React, { createRef, useEffect, useRef } from 'react';
 import './Player.less';
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
 
 const  Player = ({playingItem}) => {
     const player = useRef(null);
-    const handleOnclick = () => {
+    useEffect(() => {
         player.current.audio.current.pause();
-    };
+    });
+
     return (
         <div>
             <AudioPlayer
@@ -28,9 +29,7 @@ const  Player = ({playingItem}) => {
                     ]
                 }
                 src={playingItem.sound}
-                onPlay={e => console.log('onPlay')}
             />
-            <button type='button' onClick={() => {handleOnclick()}}>stop</button>
         </div>
     )
 };

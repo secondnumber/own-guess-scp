@@ -18,7 +18,7 @@ module.exports = (env = {}) => {
     const getPlugins = () => {
         const plugins = [
             new HtmlWebpackPlugin({
-                title: 'SongSCP',
+                title: 'GuessSCP',
                 buildTime: new Date().toISOString(),
                 template: 'public/index.html',
                 favicon: './src/favicon.ico',
