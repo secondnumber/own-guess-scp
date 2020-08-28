@@ -6,6 +6,7 @@ const SET_ATTEMPT_SCORE= 'scp/SET_ATTEMPT_SCORE';
 const SET_TOTAL_SCORE= 'scp/SET_TOTAL_SCORE';
 const SET_ROUND_END= 'scp/SET_ROUND_END';
 const SET_END_GAME= 'scp/SET_END_GAME';
+const SET_FULL_END= 'scp/SET_FULL_END';
 
 const initialState = {
     scpList: scp,
@@ -16,6 +17,7 @@ const initialState = {
     attemptScore: 0,
     totalScore: 0,
     endGame: false,
+    fullEnd: false
 };
 
 const scpReducer = (state = initialState, action) => {
@@ -56,6 +58,12 @@ const scpReducer = (state = initialState, action) => {
             endGame: action.value,
         }
     }
+    case SET_FULL_END: {
+        return {
+            ...state,
+            fullEnd: action.value,
+        }
+    }
     default:
         return state;
     }
@@ -91,9 +99,13 @@ const setEndGame = (value) => ({
     value
 });
 
-export const chooseHidden = () => (dispatch) => {
-    const random = Math.floor(Math.random() * 6);
-    dispatch(setWhoHidden(random));
+const setFullEnd = (value) => ({
+    type: SET_FULL_END,
+    value
+});
+
+export const chooseHidden = (value) => (dispatch) => {
+    dispatch(setWhoHidden(value));
 };
 
 export const setNextLevel = (level) => (dispatch) => {
@@ -103,6 +115,10 @@ export const setNextLevel = (level) => (dispatch) => {
 
 export const countAttemptScore = (value) => (dispatch) => {
     dispatch(setAttemptScore(value));
+};
+
+export const nullifyTotalScore = (value) => (dispatch) => {
+    dispatch(setTotalScore(value));
 };
 
 export const countTotalScore = (attempt, total) => (dispatch) => {
@@ -116,6 +132,19 @@ export const isRoundEnd = (value) => (dispatch) => {
 
 export const makeGameEnd = (value) => (dispatch) => {
     dispatch(setEndGame(value));
+};
+
+export const makeFullEnd = () => (dispatch) => {
+    dispatch(setFullEnd(true));
+};
+
+export const initializeNewGame = () => (dispatch) => {
+    dispatch(setNextLevel(-1));
+    dispatch(countAttemptScore(0));
+    dispatch(nullifyTotalScore(0));
+    dispatch(isRoundEnd(false));
+    dispatch(makeGameEnd(false));
+    dispatch(setFullEnd(false))
 };
 
 export default scpReducer;

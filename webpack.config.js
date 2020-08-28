@@ -70,11 +70,7 @@ module.exports = (env = {}) => {
                             loader: 'less-loader',
                             options: {
                                 lessOptions: {
-                                    strictMath: true,
-                                    modifyVars: {
-                                        'error-color': '#FF0000',
-                                        'border-radius-base': '2px',
-                                    },
+                                    javascriptEnabled: true,
                                 },
                             },
                         },

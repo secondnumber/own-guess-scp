@@ -4,10 +4,11 @@ import HeaderContainer from './Header/HeaderContainer';
 import QuestionContainer from './Question/QuestionContainer';
 import AnswerContainer from './Answer/AnswerContainer';
 import ResultContainer from './Result/ResultContainer';
+import FullEnd from './FullEnd/FullEnd';
 
 const { Content, Footer } = Layout;
 
-const App = ({endGame}) => {
+const App = ({endGame, fullEnd}) => {
     if (!endGame) {
         return (
             <Layout className="layout">
@@ -19,11 +20,19 @@ const App = ({endGame}) => {
                 <Footer style={{ textAlign: 'center' }}>SCP Foundation. Для внутреннего использования</Footer>
             </Layout>)
     }
-    if (endGame) {
+    if (endGame && !fullEnd) {
         return (
             <Layout className="layout">
                 <HeaderContainer/>
                 <ResultContainer/>
+            </Layout>
+        )
+    }
+    if (endGame && fullEnd) {
+        return (
+            <Layout className="layout">
+                <HeaderContainer/>
+                <FullEnd/>
             </Layout>
         )
     }

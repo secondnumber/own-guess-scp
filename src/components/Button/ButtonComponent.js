@@ -7,7 +7,6 @@ const ButtonComponent = ({isDisabled, setNextLevel, level, isRoundEnd, makeGameE
     const goOverNextLevel = (level) => {
         setNextLevel(level);
         isRoundEnd(false);
-        console.clear();
     }
 
     const finishGame = () => {

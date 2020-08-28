@@ -8,14 +8,11 @@ import classes from './Question.module.less';
 const { Meta } = Card;
 
 const Question = ({who, level, chooseHidden, scpList, endRound}) => {
+    const random = Math.floor(Math.random() * 6);
     const hiddenItem = scpList[level][who];
 
-    if (hiddenItem) {
-        console.log(`Верный ответ: ${hiddenItem.name}`);
-    }
-
     useEffect(() => {
-        chooseHidden();
+        chooseHidden(random);
     }, [level]);
 
     if (who === null && !endRound) {
@@ -26,6 +23,8 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
         );
     }
     if (who >= 0 && !endRound) {
+        console.clear();
+        console.log(`Верный ответ: ${hiddenItem.name}`);
         return (
             <Card className={classes.wrapper}>
                 <Skeleton loading={false} avatar active>

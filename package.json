@@ -61,6 +61,7 @@
     }
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "antd": "^4.5.4",
     "core-js": "^3.6.5",
