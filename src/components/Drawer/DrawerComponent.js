@@ -13,8 +13,7 @@ const DrawerComponent = ({show, handleOnClose, item}) => {
     return (
         <Drawer
             title={item.name}
-            className={classes.wrapper}
-            width='40vw'
+            width='50vw'
             placement="left"
             maskClosable
             onClose={handleOnClose}
@@ -49,8 +48,8 @@ const DrawerComponent = ({show, handleOnClose, item}) => {
                     <DescriptionItem
                         title="Источник"
                         content={
-                            <a href="http://scpfoundation.net/scp-1246-ru">
-                              http://scpfoundation.net/scp-1246-ru
+                            <a href={item.link}>
+                                {item.link}
                             </a>
                         }
                     />

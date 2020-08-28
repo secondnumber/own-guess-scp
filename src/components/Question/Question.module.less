@@ -6,8 +6,36 @@
   margin: 30px auto;
 }
 
-.itemImage {
+.content {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+          "image title"
+          "image player"
+          "image player";
+}
+
+.title {
+  grid-area: title;
+}
+
+.image {
+  grid-area: image;
   margin-right: 30px;
   width: 140px;
   height: auto;
+}
+
+@media (max-width: 991px) {
+  .content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 1fr 1fr;
+    grid-template-areas:
+            "title title"
+            "image image"
+            "player player";
+    justify-items: center;
+    align-items: stretch;
+  }
 }

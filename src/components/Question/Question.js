@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import { Skeleton, Card, Avatar } from 'antd';
+import { Card, Avatar, Divider } from 'antd';
 import 'react-h5-audio-player/lib/styles.less';
 import Player from '../Player/Player';
 import CoverImage from '../../assets/images/guess.jpg';
@@ -17,7 +17,7 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
 
     if (who === null && !endRound) {
         return (
-            <div>
+            <div className={classes.wrapper}>
               Loading
             </div>
         );
@@ -27,15 +27,11 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
         console.log(`Верный ответ: ${hiddenItem.name}`);
         return (
             <Card className={classes.wrapper}>
-                <Skeleton loading={false} avatar active>
-                    <Meta
-                        avatar={
-                            <Avatar shape="square" className={classes.itemImage} src={CoverImage} />
-                        }
-                        title="[ДАННЫЕ УДАЛЕНЫ]"
-                        description={<Player playingItem={hiddenItem} autoPlay={false}/>}
-                    />
-                </Skeleton>
+                <div className={classes.content}>
+                    <Avatar shape="square" className={classes.image} src={CoverImage} />
+                    <h2 className={classes.title}>[ДАННЫЕ УДАЛЕНЫ]</h2>
+                    <Player playingItem={hiddenItem} autoPlay={false}/>
+                </div>
             </Card>
         );
     }
@@ -43,15 +39,11 @@ const Question = ({who, level, chooseHidden, scpList, endRound}) => {
     if (endRound) {
         return (
             <Card className={classes.wrapper}>
-                <Skeleton loading={false} avatar active>
-                    <Meta
-                        avatar={
-                            <Avatar shape="square" className={classes.itemImage} src={hiddenItem.image} />
-                        }
-                        title={hiddenItem.name}
-                        description={<Player playingItem={hiddenItem} autoPlay={false}/>}
-                    />
-                </Skeleton>
+                <div className={classes.content}>
+                    <Avatar shape="square" className={classes.image} src={hiddenItem.image} />
+                    <h2 className={classes.title}>{hiddenItem.name}</h2>
+                    <Player playingItem={hiddenItem} autoPlay={false}/>
+                </div>
             </Card>
         );
     }

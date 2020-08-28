@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import Item from './Item/Item';
+import { List } from 'antd';
+import ItemComponent from './Item/ItemComponent';
 import Description from '../Description/Description';
 import ButtonComponent from '../Button/ButtonComponent';
 import classes from './Answer.module.less'
@@ -9,7 +10,6 @@ const Answer = ({
     scpList,
     level,
     setNextLevel,
-    chooseHidden,
     attemptScore,
     totalScore,
     countAttemptScore,
@@ -35,31 +35,32 @@ const Answer = ({
         setButtonDisabled(true);
     }, [level]);
 
-    const itemsList = scpList[level].map((el) => {
-        return (
-            <Item
-                key={el.id}
-                id={el.id}
-                name={el.name}
-                level={level}
-                attemptScore={attemptScore}
-                totalScore={totalScore}
-                countAttemptScore={countAttemptScore}
-                countTotalScore={countTotalScore}
-                who={who}
-                onItemClick={onItemClick}
-                makeButtonActive={makeButtonActive}
-                endRound={endRound}
-                isRoundEnd={isRoundEnd}
-            />
-        )
-    });
-    
+    const data = scpList[level];
+
     return (
         <div className={classes.wrapper}>
-            <ul className={classes.list}>
-                {itemsList}
-            </ul>
+            <List
+                size="large"
+                bordered
+                dataSource={data}
+                renderItem={item =>
+                    <ItemComponent
+                        key={item.id}
+                        id={item.id}
+                        name={item.name}
+                        level={level}
+                        attemptScore={attemptScore}
+                        totalScore={totalScore}
+                        countAttemptScore={countAttemptScore}
+                        countTotalScore={countTotalScore}
+                        who={who}
+                        onItemClick={onItemClick}
+                        makeButtonActive={makeButtonActive}
+                        endRound={endRound}
+                        isRoundEnd={isRoundEnd}
+                    />
+                }
+            />
             <Description
                 shownId={shownId}
                 scpList={scpList}
