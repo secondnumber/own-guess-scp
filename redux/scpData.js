@@ -643,7 +643,7 @@ const scp = [
             link: 'http://scpfoundation.net/scp-3000',
             hazard: 'Опасность восприятия класса VIII',
             image: 'https://res.cloudinary.com/dv4fxot90/image/upload/v1598432032/thaumiel/scp-3000_ql3pft.png',
-            sound: 'https://res.cloudinary.com/dv4fxot90/video/upload/v1598356103/thaumiel/scp-3000_lhim2l.mp3',
+            sound: 'https://res.cloudinary.com/dv4fxot90/video/upload/v1598725596/thaumiel/scp-3000_qwj1yr.mp3',
         },
         {
             id: 4,
