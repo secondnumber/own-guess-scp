@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import { Card, Avatar, Divider } from 'antd';
+import { Card, Avatar } from 'antd';
 import 'react-h5-audio-player/lib/styles.less';
 import Player from '../Player/Player';
 import CoverImage from '../../assets/images/guess.jpg';

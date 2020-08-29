@@ -7,6 +7,7 @@ const SET_TOTAL_SCORE= 'scp/SET_TOTAL_SCORE';
 const SET_ROUND_END= 'scp/SET_ROUND_END';
 const SET_END_GAME= 'scp/SET_END_GAME';
 const SET_FULL_END= 'scp/SET_FULL_END';
+const SET_DARKNESS= 'scp/SET_DARKNESS';
 
 const initialState = {
     scpList: scp,
@@ -17,7 +18,8 @@ const initialState = {
     attemptScore: 0,
     totalScore: 0,
     endGame: false,
-    fullEnd: false
+    fullEnd: false,
+    darkness: false,
 };
 
 const scpReducer = (state = initialState, action) => {
@@ -64,6 +66,12 @@ const scpReducer = (state = initialState, action) => {
             fullEnd: action.value,
         }
     }
+    case SET_DARKNESS: {
+        return {
+            ...state,
+            darkness: action.value,
+        }
+    }
     default:
         return state;
     }
@@ -104,6 +112,11 @@ const setFullEnd = (value) => ({
     value
 });
 
+const setDarkness = (value) => ({
+    type: SET_DARKNESS,
+    value
+});
+
 export const chooseHidden = (value) => (dispatch) => {
     dispatch(setWhoHidden(value));
 };
@@ -138,13 +151,18 @@ export const makeFullEnd = () => (dispatch) => {
     dispatch(setFullEnd(true));
 };
 
+export const makeDarkness = () => (dispatch) => {
+    dispatch(setDarkness(true));
+};
+
 export const initializeNewGame = () => (dispatch) => {
     dispatch(setNextLevel(-1));
     dispatch(countAttemptScore(0));
     dispatch(nullifyTotalScore(0));
     dispatch(isRoundEnd(false));
     dispatch(makeGameEnd(false));
-    dispatch(setFullEnd(false))
+    dispatch(setFullEnd(false));
+    dispatch(setDarkness(false));
 };
 
 export default scpReducer;

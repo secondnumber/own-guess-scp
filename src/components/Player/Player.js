@@ -1,9 +1,9 @@
-import React, { createRef, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Player.less';
 import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player';
 import classes from './Player.module.less';
 
-const  Player = ({playingItem, position}) => {
+const  Player = ({playingItem}) => {
     const player = useRef(null);
     useEffect(() => {
         player.current.audio.current.pause();

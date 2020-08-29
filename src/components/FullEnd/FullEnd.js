@@ -4,7 +4,7 @@ import classes from './FullEnd.module.less';
 
 const { Countdown } = Statistic;
 
-const FullEnd = () => {
+const FullEnd = ({makeDarkness}) => {
     const date = Date.now() + 1000 + 1000 * 10;
     const [deadline, setDeadline] = useState(null);
     useEffect(() => {
@@ -12,7 +12,7 @@ const FullEnd = () => {
     }, []);
 
     const onFinish = () => {
-        console.log('finished!');
+        makeDarkness();
     };
 
     if (!deadline) {

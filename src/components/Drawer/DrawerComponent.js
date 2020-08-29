@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { Drawer, List, Avatar, Divider, Col, Row } from 'antd';
-import classes from './DrawerComponent.module.less';
+import React, { useEffect, useState } from 'react';
+import { Drawer, Divider, Col, Row } from 'antd';
 
 const DescriptionItem = ({ title, content }) => (
     <div className="site-description-item-profile-wrapper">
@@ -10,10 +9,17 @@ const DescriptionItem = ({ title, content }) => (
 );
 
 const DrawerComponent = ({show, handleOnClose, item}) => {
+    const [viewportWidth, setViewportWidth] = useState(null);
+    useEffect(() => {
+        if(typeof(window.innerWidth)!=='undefined'){
+            setViewportWidth(window.innerWidth);
+        }
+    });
+
     return (
         <Drawer
             title={item.name}
-            width='50vw'
+            width={viewportWidth > 900 ? '50vw' : '100vw'}
             placement="left"
             maskClosable
             onClose={handleOnClose}

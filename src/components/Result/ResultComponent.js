@@ -1,7 +1,6 @@
 import React from 'react';
 import { Result, Button } from 'antd';
 import { CheckSquareOutlined } from '@ant-design/icons';
-import classes from './ResultComponent.module.less';
 
 const ResultComponent = ({totalScore, initializeNewGame, makeFullEnd}) => {
     if (totalScore >= 0 && totalScore < 20) {
@@ -43,14 +42,8 @@ const ResultComponent = ({totalScore, initializeNewGame, makeFullEnd}) => {
             <Result
                 icon={<CheckSquareOutlined style={ {color: '#8cf8d0'}}/>}
                 status="success"
-                title={`Эксперимент завершен с результатом ${totalScore} баллов. Это максимально возможный результат.`}
-                subTitle="Похоже, вы слишком много о нас знаете. Сотрудники Фонда уже выехали за вами. А пока - согласны повторить эксперимент?"
-                extra={[
-                    <Button danger type="primary" key="console" onClick={() => {initializeNewGame()}}>
-            Согласен
-                    </Button>,
-                    <Button key="buy" onClick={() => {makeFullEnd()}}>Не согласен</Button>,
-                ]}
+                title={`Поздравляем! Эксперимент завершен с результатом ${totalScore} баллов. Это максимально возможный результат.`}
+                subTitle="Похоже, вы слишком много о нас знаете. Сотрудники Фонда уже выехали за вами."
             />
         );
     }

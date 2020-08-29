@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd';
+import classes from './App.module.less';
 import HeaderContainer from './Header/HeaderContainer';
 import QuestionContainer from './Question/QuestionContainer';
 import AnswerContainer from './Answer/AnswerContainer';
@@ -8,7 +9,7 @@ import FullEnd from './FullEnd/FullEnd';
 
 const { Content, Footer } = Layout;
 
-const App = ({endGame, fullEnd}) => {
+const App = ({endGame, fullEnd, darkness, makeDarkness}) => {
     if (!endGame) {
         return (
             <Layout className="layout">
@@ -28,15 +29,19 @@ const App = ({endGame, fullEnd}) => {
             </Layout>
         )
     }
-    if (endGame && fullEnd) {
+
+    if (endGame && fullEnd && !darkness) {
         return (
             <Layout className="layout">
                 <HeaderContainer/>
-                <FullEnd/>
+                <FullEnd makeDarkness={makeDarkness}/>
             </Layout>
         )
     }
 
-}
+    if (endGame && fullEnd && darkness) {
+        <div className={classes.wrapper} />
+    }
+};
 
 export default App;

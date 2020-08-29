@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { Card, Skeleton, Avatar, List, Button, Drawer} from 'antd';
+import { Card, Avatar, List, Button } from 'antd';
 import classes from './Description.module.less';
 import Player from '../Player/Player';
 import DrawerComponent from '../Drawer/DrawerComponent';
-
-const { Meta } = Card;
 
 const Description = ({shownId, scpList, level}) => {
     const [showDrawer, setShowDrawer] = useState(false);
@@ -23,24 +21,20 @@ const Description = ({shownId, scpList, level}) => {
             <>
                 <Card className={classes.block}>
                     <h2 className={classes.header}>{shownItem.name}</h2>
-                    <Skeleton loading={false} avatar active>
-                        <Meta
-                            avatar={
-                                <div className={classes.imageBlock}>
-                                    <Avatar shape="square" className={classes.itemImage} src={shownItem.image} />
-                                    <Button type="dashed" danger onClick={() => setShowDrawer(true)}>Полный доступ</Button>
-                                </div>
-                            }
-                            description={<List>
-                                <List.Item>Класс содержания: {shownItem.type}</List.Item>
-                                <List.Item>Уровень опасности: {shownItem.hazard}</List.Item>
-                                <List.Item>Описание: {shownItem.description}</List.Item>
-                            </List>}
-                        />
-                        <Player
-                            playingItem={shownItem}
-                        />
-                    </Skeleton>
+                    <div className={classes.shortInfo}>
+                        <Avatar shape="square" className={classes.itemImage} src={shownItem.image} />
+                        <List className={classes.list}>
+                            <List.Item>Класс содержания: {shownItem.type}</List.Item>
+                            <List.Item>Уровень опасности: {shownItem.hazard}</List.Item>
+                            <List.Item><Button className={classes.button} type="dashed" danger onClick={() => setShowDrawer(true)}>Полный доступ</Button></List.Item>
+                        </List>
+                    </div>
+                    <div className={classes.description}>
+                        {shownItem.description}
+                    </div>
+                    <Player
+                        playingItem={shownItem}
+                    />
                 </Card>
                 <DrawerComponent
                     show={showDrawer}

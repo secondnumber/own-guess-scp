@@ -30,12 +30,19 @@
 @media (max-width: 991px) {
   .content {
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 1fr 1fr;
+    grid-template-rows: minmax(max-content, auto) 2fr 1fr;
     grid-template-areas:
             "title title"
             "image image"
             "player player";
-    justify-items: center;
+    justify-items: stretch;
     align-items: stretch;
+  }
+  .image {
+    margin-right: 0;
+    justify-self: center;
+  }
+  .title {
+    justify-self: center;
   }
 }
