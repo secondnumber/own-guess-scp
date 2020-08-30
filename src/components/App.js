@@ -40,7 +40,9 @@ const App = ({endGame, fullEnd, darkness, makeDarkness}) => {
     }
 
     if (endGame && fullEnd && darkness) {
-        <div className={classes.wrapper} />
+        return (
+            <div className={classes.wrapper} />
+        )
     }
 };
 
