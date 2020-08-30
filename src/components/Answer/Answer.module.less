@@ -1,0 +1,33 @@
+@import '../Colors';
+
+.wrapper {
+  max-width: 75vw;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  grid-template-rows: 1fr 30px 30px;
+  grid-template-areas:
+    "answers . description"
+    ". . ."
+    "button button button";
+}
+
+.list {
+  grid-area: answers;
+  background: @grayMiddle;
+  border: 1px solid @grayLight;
+  list-style-type: none;
+}
+
+@media (max-width: 991px)  {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(max-content, auto) 30px minmax(max-content, auto) 30px 30px;
+    grid-template-areas:
+            "answers"
+            "."
+            "description"
+            "."
+            "button";
+  }
+}
